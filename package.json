@@ -1,0 +1,26 @@
+{
+  "name": "iamsophie.sk",
+  "version": "1.0.0",
+  "description": "Personal website of Sophie Shanahan-Kluth.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tawreh/iamsophiesk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tawreh/iamsophiesk/issues"
+  },
+  "homepage": "https://github.com/Tawreh/iamsophiesk#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.8.3"
+  },
+  "dependencies": {
+    "netlify-cli": "^2.11.23"
+  }
+}

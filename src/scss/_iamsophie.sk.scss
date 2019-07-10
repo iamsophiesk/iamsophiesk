@@ -26,8 +26,15 @@ header {
   }
 }
 
+main {
+  .eight.columns {
+    padding-top: 4rem;
+  }
+}
+
 aside {
   background-color: $c-isabelline;
+  padding-top: 4rem;
 }
 
 table {

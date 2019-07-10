@@ -3,5 +3,8 @@ layout: layouts/base.njk
 templateClass: tmpl-post
 ---
 <h2>{{ title }}</h2>
+<div class="post-metadata">
+  <p><strong>Posted:</strong> <time class="postlist-date" datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time></p>
+</div>
 
 {{ content | safe }}

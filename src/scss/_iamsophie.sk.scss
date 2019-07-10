@@ -1,0 +1,35 @@
+/* Custom styles for the site. */
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+}
+
+header {
+  background-color: $c-paynes-grey;
+  padding-bottom: 4rem;
+  padding-top: 8rem;
+
+  h1 {
+    margin-bottom: 0;
+
+    a,
+    a:hover,
+    a:focus,
+    a:active {
+      color: $c-columbia-blue;
+    }
+  }
+
+  .tagline {
+    margin-bottom: 0;
+    color: $c-columbia-blue;
+  }
+}
+
+aside {
+  background-color: $c-isabelline;
+}
+
+table {
+  width: 100%;
+}

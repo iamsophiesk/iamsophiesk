@@ -1,2 +1,3 @@
-# I am not committing my node modules.
-node_modules
+_site/
+node_modules/
+package-lock.json

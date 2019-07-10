@@ -1,0 +1,48 @@
+//
+// Global variables file.
+// -----------------------------------------------------------------------------
+
+// Greyscale.
+// -----------------------------------------------------------------------------
+
+$black: #1a1919;
+$gray-darkest: #222;
+$gray-mid-darkest: #3e3e3e;
+$gray-darker: #41413e;
+$gray-dark: #555;
+$gray: #6b6b69;
+$gray-mid-light: #777;
+$gray-light: #ccc;
+$gray-lighter: #e6e6e6;
+$white: #fff;
+
+// Colours!!!
+// -----------------------------------------------------------------------------
+
+$c-medium-vermilion: #dd6e42;
+$c-wheat: #e8dab2;
+$c-paynes-grey: #4f6d7a;
+$c-columbia-blue: #c0d6df;
+$c-isabelline: #eaeaea;
+
+// Fonts.
+// -----------------------------------------------------------------------------
+
+$font-family-literata: 'Literata', serif;
+$font-family-muli: 'Muli', sans-serif;
+$font-family-base: $font-family-muli;
+$font-family-headers: $font-family-literata;
+
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+$font-size-base: 16px;
+$font-size-h1: 6rem;
+$font-size-h2: 4rem;
+$font-size-h3: 3rem;
+
+// Background colours.
+// -----------------------------------------------------------------------------
+
+$selection-bg: rgba($c-columbia-blue, 0.6);

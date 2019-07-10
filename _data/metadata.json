@@ -1,16 +1,16 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://myurl.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "Twitterings",
+  "url": "https://iamsophie.sk/",
+  "description": "Personal site and blog of Sophie S-K.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Personal site and blog of Sophie S-K.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "url": "https://myurl.com/feed/feed.xml",
-    "id": "https://myurl.com/"
+    "url": "https://iamsophie.sk/feed/feed.xml",
+    "id": "https://iamsophie.sk/"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com"
+    "name": "Sophie Shanahan-Kluth",
+    "email": "ssk@iamsophie.sk"
   }
 }

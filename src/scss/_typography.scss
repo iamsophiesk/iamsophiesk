@@ -1,0 +1,60 @@
+// Base font styles.
+body {
+  color: $gray-darkest;
+  line-height: 1.5;
+  font: {
+    family: $font-family-base;
+    size: $font-size-base;
+  }
+}
+
+::selection {
+  background-color: $selection-bg;
+}
+
+:focus {
+  outline: 2px solid $c-medium-vermilion;
+}
+
+a {
+  transition: color 0.1s linear;
+  color: $c-medium-vermilion;
+  text-decoration: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $c-paynes-grey;
+    text-decoration: underline;
+  }
+}
+
+h1,
+%h1,
+h2,
+%h2,
+h3,
+%h3 {
+  font-family: $font-family-headers;
+  font-weight: $font-weight-medium;
+}
+
+h1,
+%h1 {
+  font-size: $font-size-h1;
+}
+
+h2,
+%h2 {
+  font-size: $font-size-h2;
+}
+
+h3,
+%h3 {
+  font-size: $font-size-h3;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}

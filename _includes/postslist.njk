@@ -1,7 +1,7 @@
 {% for post in postslist | reverse %}
   <div class="post">
     <div class="post-header">
-      <h3><a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a></h3>
+      <a href="{{ post.url | url }}"><h3>{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</h3></a>
     </div>
     <div class="post-metadata">
       <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>

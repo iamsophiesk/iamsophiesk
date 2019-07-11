@@ -16,6 +16,11 @@ body {
   outline: 2px solid $c-medium-vermilion;
 }
 
+p {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
 a {
   transition: color 0.1s linear;
   color: $c-medium-vermilion;
@@ -30,31 +35,38 @@ a {
 }
 
 h1,
-%h1,
 h2,
-%h2,
-h3,
-%h3 {
+h3 {
   font-family: $font-family-headers;
   font-weight: $font-weight-medium;
 }
 
-h1,
-%h1 {
+h1 {
   font-size: $font-size-h1;
 }
 
-h2,
-%h2 {
+h2 {
   font-size: $font-size-h2;
 }
 
-h3,
-%h3 {
+h3 {
   font-size: $font-size-h3;
 }
 
-p {
-  margin-top: 0;
-  margin-bottom: 2rem;
+h4 {
+  font-size: $font-size-h4;
+}
+
+h5 {
+  font-size: $font-size-h5;
+}
+
+h6 {
+  font-size: $font-size-h6;
+}
+
+blockquote {
+  border-left: 4px solid $c-isabelline;
+  color: $gray-darker;
+  padding-left: 2.5rem;
 }

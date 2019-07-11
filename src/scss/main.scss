@@ -1,12 +1,19 @@
 // Import skeleton first.
-@import '_normalize';
-@import '_skeleton';
+@import 'base/_normalize';
+@import 'base/_skeleton';
 
-// Add our base overrides.
-@import '_variables';
-@import '_typography';
+// Add my base styles.
+@import 'base/_variables';
+@import 'base/_typography';
 
-// Add the custom styles.
-@import '_muscles';
-@import '_iamsophie.sk';
-@import '_syntax-highlighting';
+// Add overrides for specific skeleton features.
+@import 'overrides/_muscles';
+
+// Add layout styles.
+@import 'layout/_header';
+@import 'layout/_main';
+@import 'layout/_sidebar';
+@import 'layout/_footer';
+
+// Add component styles.
+@import 'components/_syntax-highlighting';

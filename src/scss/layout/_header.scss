@@ -1,9 +1,4 @@
-/* Custom styles for the site. */
-body {
-  font-family: $font-family-base;
-  font-size: $font-size-base;
-}
-
+/* Styles for the header region. */
 header {
   background-color: $c-paynes-grey;
   padding-bottom: 4rem;
@@ -24,19 +19,4 @@ header {
     margin-bottom: 0;
     color: $c-columbia-blue;
   }
-}
-
-main {
-  .eight.columns {
-    padding-top: 4rem;
-  }
-}
-
-aside {
-  background-color: $c-isabelline;
-  padding-top: 4rem;
-}
-
-table {
-  width: 100%;
 }

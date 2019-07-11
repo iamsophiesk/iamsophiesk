@@ -5,7 +5,5 @@ tags:
 navtitle: Home
 ---
 
-<h2>Latest 3 Posts</h2>
-
 {% set postslist = collections.posts | head(-3) %}
 {% include "postslist.njk" %}

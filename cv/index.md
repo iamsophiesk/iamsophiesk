@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/page.njk
 title: Sophie Shanahan-Kluth
 tags:
   - nav
@@ -45,16 +45,14 @@ To do!!
 
 [Website](http://microserve.io/)
 
-Working as a senior Drupal developer. In my time here, I've worked on several large Drupal projects, including:
+Working as a senior Drupal developer. In my time here, I worked on several large Drupal projects, including:
 *   [WWF-UK support](https://support.wwf.org.uk/)
 *   [YHA Families & Individuals](https://www.yha.org.uk/)
 *   [YHA Groups](https://groups.yha.org.uk/)
-*   [Arc](http://stitch.forinsiders.co.uk) (powered by [Stitch Communications](http://talkwithstitch.co.uk/))
 *   [CarePlanner](http://care-planner.co.uk)
 *   [Simitive](http://simitive.com)
-*   [Kokm](http://kokmdemo.com/)
 
-###### Circle Interactive - July 2011 to May 2014
+#### Circle Interactive - July 2011 to May 2014
 
 [Website](http://circle-interactive.co.uk/)
 

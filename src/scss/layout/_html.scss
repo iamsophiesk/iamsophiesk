@@ -1,0 +1,12 @@
+/* Overall page layout. */
+body {
+  background: $c-isabelline;
+  color: $gray-darkest;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: $gray-mid-darkest;
+    color: $c-isabelline;
+  }
+}

@@ -27,7 +27,7 @@ In the end, CMI Tools won out, but I decided I didn't want that to stop me from 
 
 At Microserve we've been managing all project dependencies using Composer for about a year now, so this was no problem. I already had Drush listed as a dependency in Composer for this project, so it was a simple case of requiring the newer version:
 
-```
+```bash
 $ fin run composer require drush/drush:^9
 ```
 
@@ -35,7 +35,7 @@ $ fin run composer require drush/drush:^9
 
 Composer went away to get all the updates, unpacked them, and that was that:
 
-```
+```bash
 $ fin drush status
  Drupal version   : 8.5.4                                 
  Drush version    : 9.3.0
@@ -64,7 +64,7 @@ But that's Github! In order for Composer to pick that up, I had to make some cha
 
 Then I could require the script as previously:
 
-```
+```bash
 $ fin run composer require drupal/drush-cmi-tools:dev-8.x-2.x
 ```
 
@@ -74,7 +74,7 @@ Composer did its thing again and downloaded the files to the modules directory. 
 
 I repeat: **you must enable the module**! Then you can run the commands:
 
-```
+```bash
 $ fin drush en drush-cmi-tools
 $ fin drush config-export-plus --destination=../config/sync
  [notice] The active configuration is identical to the configuration in the export directory (../config/sync)
@@ -121,7 +121,7 @@ Drop these contents into `/drush/drush.yml`. If you have a multisite, and you wa
 
 Now you should be able to run a streamlined version of your config export command, or the aliased command if you prefer:
 
-```
+```bash
 $ fin drush config-export-plus
 $ fin drush cexy
 ```
@@ -134,7 +134,7 @@ As part of standard practice at Microserve, we spin up test sites for every feat
 
 This process broke with our update to Drush 9. In Drush 8, if you ran the `sql-dump` command with the `--result-file` flag, you'd get a database saved to a location in your home directory:
 
-```
+```bash
 $ fin drush sql-dump --result-file
  [success] Database dump saved to /home/docker/drush-backups/database_name/20180704105010/database_name_20180704_105011.sql
 
@@ -142,7 +142,7 @@ $ fin drush sql-dump --result-file
 
 In Drush 9, if you do the same again:
 
-```
+```bash
 $ fin drush sql:dump --result-file
   The "--result-file" option requires a value.
 ```
@@ -151,7 +151,7 @@ And no database is exported.
 
 It took me a while to dig out [a relevant issue on Github][8], where someone suggested adding an extra flag to auto-generate the file name as previously. The full command now looks like:
 
-```
+```bash
 $ fin drush sql:dump --result-file auto
 ```
 
@@ -169,7 +169,7 @@ The command is technically `sql:dump`, so it's a nested command set, instead of 
 
 Now you should be able to run the command without any arguments and get a nice database dump:
 
-```
+```bash
 $ fin drush sql:dump
  [success] Database dump saved to /home/docker/drush-backups/database_name/20180704105825/database_name_20180704_105825.sql
 ```
@@ -188,7 +188,7 @@ While there is a command to convert aliases, I've found that it doesn't reliably
 
 You can try using this command:
 
-```
+```bash
 $ fin drush site:alias-convert
 ```
 
@@ -233,7 +233,7 @@ dev:
 
 Repeat for each of the aliases you have. Put all of them into the same file, and make sure you commit them to your repository. Then you should be able to use your aliases as usual:
 
-```
+```bash
 $ drush @mysite.dev status
  Drupal version   : 8.5.4                                                    
  Database         : Connected                                                

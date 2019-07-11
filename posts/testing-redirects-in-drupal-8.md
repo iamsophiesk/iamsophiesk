@@ -29,7 +29,7 @@ There in the patch was a useful assertion to check the current address:
 
 Pop that into my test and it works like a charm:
 
-```php
+```php  
 public function testDirectAccessNoParameters() {
  // If no parameters are provided, expect a redirect.
  $this->drupalGet('add-product');
@@ -39,7 +39,7 @@ public function testDirectAccessNoParameters() {
 
 And the output of my test:
 
-```
+```bash
 sophie@Belgaer:$ fin phpunit --group=current_tests
 WARNING: No swap limit support
 PHPUnit 6.5.10 by Sebastian Bergmann and contributors.

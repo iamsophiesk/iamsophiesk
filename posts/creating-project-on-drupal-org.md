@@ -51,7 +51,7 @@ Hopefully now you've got yourself a shiny project page!
 
 Head over to the "Version control" tab. This will provide basic Git commands. First things first, you'll need to initialise your git repository and checkout a new branch. So, let's get started! Initalise your repository and add Drupal.org as the project's remote.
 
-```
+```bash
 $ git init
 Initialized empty Git repository in /home/sophie/projects/simple_email_templates/.git/
 
@@ -67,14 +67,14 @@ Branch naming is a tricky business. You may want to take a look at the article l
 
 Once you've figured out what your branch will be called, go ahead and create it:
 
-```
+```bash
 $ git checkout -b 8.x-1.x
 Switched to a new branch '8.x-1.x'
 ```
 
 Add the files you've already created and commit them! This is your big moment. Make it count. ;)
 
-```
+```bash
 $ git add .
 $ git commit -m "Initial commit!"
 $ git push -u origin 8.x-1.x
@@ -115,7 +115,7 @@ Enter the name you've chosen, check the box above, and then proceed through the 
 
 Don't forget that your Git remote will have updated. Previously it was your sandbox URL but now it's the full project URL. There will be a reminder at the top of your project page, but to update your remote, run the following:
 
-```
+```bash
 $ git remote set-url origin {username}@git.drupal.org:project/{project_name}.git
 ```
 
@@ -131,7 +131,7 @@ First you'll need to tag your code ready for release. There are instructions on 
 
 I'm going to tag this as a release candidate, because it hasn't had any time on production sites other than the one I've been working on. I also want to apply for security coverage, and that process stipulates that the project should be in a release candidate state when I make the application.
 
-```
+```bash
 $ git tag 8.x-1.0-rc1
 $ git push origin tag 8.x-1.0-rc1
 Total 0 (delta 0), reused 0 (delta 0)

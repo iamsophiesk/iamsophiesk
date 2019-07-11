@@ -10,10 +10,12 @@
 @import 'overrides/_muscles';
 
 // Add layout styles.
+@import 'layout/_html';
 @import 'layout/_header';
 @import 'layout/_main';
 @import 'layout/_sidebar';
 @import 'layout/_footer';
 
 // Add component styles.
+@import 'components/_images';
 @import 'components/_syntax-highlighting';

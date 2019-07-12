@@ -1,0 +1,30 @@
+/* Overrides for dark mode scheme. */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: $gray-mid-darkest;
+    color: $c-isabelline;
+  }
+
+  header {
+    background-color: $c-paynes-grey-dark;
+  }
+
+  aside {
+    background-color: $gray-dark;
+    color: $c-isabelline;
+
+    a {
+      color: $c-wheat-dark;
+    }
+  }
+
+  footer {
+    background-color: $c-paynes-grey-dark;
+  }
+
+  a:hover,
+  a:focus,
+  a:active {
+    color: $c-columbia-blue;
+  }
+}

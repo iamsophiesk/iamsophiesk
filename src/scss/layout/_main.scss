@@ -1,5 +1,17 @@
 /* Styling for the main content region. */
 main {
+  flex: 1 0 auto;
+
+  .column-wrapper {
+    display: flex;
+    height: 100%;
+  }
+
+  .column,
+  .columns {
+    padding-bottom: 8rem;
+  }
+
   .eight.columns {
     padding-top: 4rem;
   }

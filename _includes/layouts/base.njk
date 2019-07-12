@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
   </head>
-  <body class="{{ page.fileSlug }}">
+  <body{% if page.fileSlug %} class="{{ page.fileSlug }}"{% endif %}>
     <header>
       <div class="container">
         <div class="row">
@@ -21,16 +21,26 @@
     </header>
 
     <main class="container{% if templateClass %} {{ templateClass }}{% endif %}">
-      <div class="row">
+      <div class="row column-wrapper">
         <div class="eight columns">
           {{ content | safe }}
         </div>
 
         <aside class="four columns">
-          <ul class="nav">
-            {%- for nav in collections.nav | reverse -%}
-            <li class="nav-item{% if nav.url == page.url %} nav-item-active{% endif %}"><a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a></li>
-            {%- endfor -%}
+          <h2>Get around</h2>
+          <nav>
+            <ul>
+              {%- for nav in collections.nav | reverse -%}
+              <li class="nav-item{% if nav.url == page.url %} nav-item-active{% endif %}"><a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a></li>
+              {%- endfor -%}
+            </ul>
+          </nav>
+
+          <h3>Find me on...</h3>
+          <ul>
+            <li> <a href="https://www.drupal.org/u/sophiesk">Drupal.org</a></li>
+            <li> <a href="https://www.twitter.com/iamsophiesk">Twitter</a></li>
+            <li> <a href="https://github.com/Tawreh">Github</a></li>
           </ul>
         </aside>
       </div>

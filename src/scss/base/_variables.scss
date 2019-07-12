@@ -20,10 +20,24 @@ $white: #fff;
 // -----------------------------------------------------------------------------
 
 $c-medium-vermilion: #dd6e42;
+$c-medium-vermilion-dark: darken($c-medium-vermilion, 15%);
+$c-medium-vermilion-light: lighten($c-medium-vermilion, 15%);
+
 $c-wheat: #e8dab2;
+$c-wheat-dark: darken($c-wheat, 15%);
+$c-wheat-light: lighten($c-wheat, 15%);
+
 $c-paynes-grey: #4f6d7a;
+$c-paynes-grey-dark: darken($c-paynes-grey, 15%);
+$c-paynes-grey-light: lighten($c-paynes-grey, 15%);
+
 $c-columbia-blue: #c0d6df;
+$c-columbia-blue-dark: darken($c-columbia-blue, 15%);
+$c-columbia-blue-light: lighten($c-columbia-blue, 15%);
+
 $c-isabelline: #eaeaea;
+$c-isabelline-dark: darken($c-isabelline, 15%);
+$c-isabelline-light: lighten($c-isabelline, 15%);
 
 // Fonts.
 // -----------------------------------------------------------------------------

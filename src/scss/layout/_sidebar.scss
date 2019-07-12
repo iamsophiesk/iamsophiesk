@@ -1,5 +1,20 @@
 /* Styling for the sidebar. */
 aside {
   background-color: $c-isabelline;
-  padding-top: 4rem;
+  padding: 4rem 2rem 2rem;
+
+  ul {
+    list-style: none;
+
+    li {
+      &:not(:last-child) {
+        border-bottom: 1px dotted $c-columbia-blue;
+      }
+
+      a {
+        display: block;
+        padding: 1.5rem;
+      }
+    }
+  }
 }

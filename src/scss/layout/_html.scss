@@ -1,12 +1,12 @@
 /* Overall page layout. */
+html,
+body {
+  height: 100%;
+}
+
 body {
   background: $c-isabelline;
   color: $gray-darkest;
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background: $gray-mid-darkest;
-    color: $c-isabelline;
-  }
+  display: flex;
+  flex-direction: column;
 }

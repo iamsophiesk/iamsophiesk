@@ -8,7 +8,7 @@ templateClass: tmpl-page
 ---
 
 *   <https://iamsophie.sk>
-*   <mailto:sophie@iamsophie.sk>
+*   [sophie@iamsophie.sk](mailto:sophie@iamsophie.sk)
 
 ### About me
 
@@ -73,9 +73,9 @@ My work included:
 
 Studied at <abbr title="University of the West of England">UWE</abbr> Bristol from September 2009 to July 2013, graduating with a first class degree.
 
-My final year project was Fontastica, a font finder. Using Google's API, the site provided random combinations of fonts in header-body format and allowed users to rate them ("I like this!" or "This sucks!"). Its purpose was to give designers ideas for type combinations on websites, assuming that it's either difficult to come up with a good combination, or they stick to the same old thing.
+My final year project was Fontastica, a font finder. Using Google's font API, the site provided random combinations of fonts in header-body format and allowed users to rate them ("I like this!" or "This sucks!"). Its purpose was to give designers ideas for type combinations on websites, assuming that it's either difficult to come up with a good combination, or they stick to the same old thing.
 
-It was built using CodeIgniter, which I hadn't used before, and was coded between October 2012 and April 2013. The accompanying report was written throughout the year alongside the project work.
+It was built using CodeIgniter between October 2012 and April 2013. The accompanying report was written throughout the year alongside the project work.
 
 Other modules included:
 
@@ -88,7 +88,7 @@ Other modules included:
 
 Attended <abbr title="Sleaford Joint Sixth Form">SJSF</abbr> in Lincolnshire from September 2007 to July 2009. Left with three A-levels and one BTEC Certificate in Art & Design (grade MM).
 
-BTEC units included: photography, fashion illustration, textile work, art history, logo/brand design, web design (in final major project, self-created brief), typography.
+BTEC units included: web design (in final major project, self-created brief), photography, fashion illustration, textile work, art history, logo/brand design, typography.
 
 A-levels achieved in English Language (B), Chemistry (C) and General Studies.
 
@@ -106,12 +106,14 @@ Recently I've started to focus on health - not only my health but that of my col
 
 ### References
 
+#### Andy Dempster
+
+Web team lead at Focusrite ·  [andrew.dempster@focusrite.com](mailto:andrew.dempster@focusrite.com)
+
 #### Em Coward
 
-Head of development at Microserve
-[emily@microserve.io](mailto:emily@microserve.io)
+Head of development at Microserve · [emily@microserve.io](mailto:emily@microserve.io)
 
 #### Dan McNamara
 
-Managing director at Microserve
-[dan.mcnamara@microserve.io](mailto:dan.mcnamara@microserve.io) · [0117 214 0554](tel:+441172140554)
+Managing director at Microserve ·  [dan.mcnamara@microserve.io](mailto:dan.mcnamara@microserve.io) · [0117 214 0554](tel:+441172140554)

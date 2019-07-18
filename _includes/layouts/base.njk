@@ -11,10 +11,10 @@
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
   </head>
   <body{% if page.fileSlug %} class="{{ page.fileSlug }}"{% endif %}>
-    <header>
+    <header class="site-info">
       <div class="container">
         <div class="row">
-          <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+          <h1 class="site-title"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
           <p class="tagline">Witterings and ramblings of Sophie Shanahan-Kluth</p>
         </div>
       </div>
@@ -29,15 +29,15 @@
         <aside class="four columns">
           <h2>Get around</h2>
           <nav>
-            <ul>
-              {%- for nav in collections.nav | reverse -%}
+            <ul class="main-navigation">
+              {%- for nav in collections.nav -%}
               <li class="nav-item{% if nav.url == page.url %} nav-item-active{% endif %}"><a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a></li>
               {%- endfor -%}
             </ul>
           </nav>
 
           <h3>Find me on...</h3>
-          <ul>
+          <ul class="supporting-navigation">
             <li> <a href="https://www.drupal.org/u/sophiesk">Drupal.org</a></li>
             <li> <a href="https://www.twitter.com/iamsophiesk">Twitter</a></li>
             <li> <a href="https://github.com/Tawreh">Github</a></li>

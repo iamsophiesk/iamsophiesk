@@ -1,30 +1,36 @@
 /* Overrides for dark mode scheme. */
-@media (prefers-color-scheme: dark) {
-  body {
-    background: $gray-mid-darkest;
-    color: $c-isabelline;
-  }
-
-  header {
-    background-color: $c-paynes-grey-dark;
-  }
-
-  aside {
-    background-color: $gray-dark;
-    color: $c-isabelline;
-
-    a {
-      color: $c-wheat-dark;
-    }
-  }
-
-  footer {
-    background-color: $c-paynes-grey-dark;
-  }
-
-  a:hover,
-  a:focus,
-  a:active {
-    color: $c-columbia-blue;
-  }
-}
+// @media (prefers-color-scheme: dark) {
+//   body {
+//     background: $gray-mid-darkest;
+//     color: $c-isabelline;
+//   }
+//
+//   header {
+//     background-color: $c-paynes-grey;
+//   }
+//
+//   aside {
+//     background-color: $gray-darkest;
+//     color: $c-isabelline;
+//
+//     li {
+//       &:not(:last-child) {
+//         border-bottom-color: $c-paynes-grey;
+//       }
+//
+//       a {
+//         color: $c-wheat;
+//       }
+//     }
+//   }
+//
+//   footer {
+//     box-shadow: inset 0 0 30px $gray-darkest;
+//   }
+//
+//   a:hover,
+//   a:focus,
+//   a:active {
+//     color: $c-columbia-blue;
+//   }
+// }

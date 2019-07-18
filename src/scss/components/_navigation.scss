@@ -1,0 +1,18 @@
+/* Styling for the navigation. */
+aside {
+  ul {
+    list-style: none;
+  }
+
+  li {
+    &:not(:last-child) {
+      border-bottom: 1px dotted $c-columbia-blue;
+    }
+
+    a {
+      color: $c-medium-vermilion-dark;
+      display: block;
+      padding: 1.5rem;
+    }
+  }
+}

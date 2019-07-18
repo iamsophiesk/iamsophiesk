@@ -1,0 +1,15 @@
+/* Styles for the site tagline. */
+header {
+  h1 {
+    a,
+    a:hover,
+    a:focus,
+    a:active {
+      color: $c-columbia-blue;
+    }
+  }
+
+  .tagline {
+    color: $c-columbia-blue-light;
+  }
+}

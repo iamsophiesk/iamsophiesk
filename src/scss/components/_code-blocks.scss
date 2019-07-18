@@ -1,0 +1,28 @@
+/* Additional styling for code blocks. */
+
+pre[class^='language-']::before {
+  color: $gray-light;
+  content: "Code";
+  display: block;
+  font-size: 12px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+pre {
+  &.language-bash::before {
+    content: "bash";
+  }
+  &.language-css::before {
+    content: "css";
+  }
+  &.language-json::before {
+    content: "json";
+  }
+  &.language-php::before {
+    content: "php";
+  }
+  &.language-mysql::before {
+    content: "mysql";
+  }
+}

@@ -1,5 +1,6 @@
 // Base font styles.
 body {
+  color: $gray-darkest;
   line-height: 1.5;
   font: {
     family: $font-family-base;
@@ -21,15 +22,16 @@ p {
 }
 
 a {
-  transition: color 0.1s linear;
-  color: $c-medium-vermilion;
+  border-bottom: 1px dashed $c-medium-vermilion;
+  color: $c-medium-vermilion-dark;
   text-decoration: none;
+  transition: color 0.1s linear;
 
   &:hover,
   &:focus,
   &:active {
     color: $c-paynes-grey;
-    text-decoration: underline;
+    border-bottom: 1px solid $c-paynes-grey;
   }
 }
 

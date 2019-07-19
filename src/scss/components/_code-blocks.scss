@@ -9,20 +9,9 @@ pre[class^='language-']::before {
   text-transform: uppercase;
 }
 
-pre {
-  &.language-bash::before {
-    content: "bash";
-  }
-  &.language-css::before {
-    content: "css";
-  }
-  &.language-json::before {
-    content: "json";
-  }
-  &.language-php::before {
-    content: "php";
-  }
-  &.language-mysql::before {
-    content: "mysql";
+$languages-list: 'bash' 'json' 'css' 'scss' 'javascript' 'php' 'mysql' 'sql';
+@each $language in $languages-list {
+  pre.language-#{$language}::before {
+    content: "#{$language}";
   }
 }

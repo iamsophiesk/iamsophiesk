@@ -13,6 +13,10 @@ aside {
       color: $c-medium-vermilion-dark;
       display: block;
       padding: 1.5rem;
+
+      &:hover {
+        background-color: $c-columbia-blue;
+      }
     }
   }
 }

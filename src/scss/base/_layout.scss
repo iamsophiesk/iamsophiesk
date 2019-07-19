@@ -43,12 +43,11 @@ main {
 }
 
 aside {
-  background-color: $c-wheat;
   padding: 4rem 2rem 2rem;
 }
 
 footer {
-  box-shadow: inset 0 0 30px $c-isabelline-dark;
+  background: $c-columbia-blue;
   flex-shrink: 0;
   padding-bottom: 4rem;
   padding-top: 8rem;

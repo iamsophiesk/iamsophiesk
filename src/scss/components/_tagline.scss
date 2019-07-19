@@ -6,6 +6,7 @@ header {
     a:focus,
     a:active {
       color: $c-columbia-blue;
+      border-bottom: none;
     }
   }
 

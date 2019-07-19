@@ -2,6 +2,7 @@
 title: Upgrading from Drush 8 to 9 with Acquia
 description: While starting on a new project recently, I decided to take the plunge and upgrade to Drush 9. The upgrade process, especially since it's an Acquia site, was a little bit haphazard. In this post I'll describe the issues I faced and how I resolved them.
 date: 2018-07-04
+permalink: "posts/{{ date | date: '%Y/%m' }}/{{ title | slug }}/index.html"
 tags:
   - work
   - drupal
@@ -37,7 +38,7 @@ Composer went away to get all the updates, unpacked them, and that was that:
 
 ```bash
 $ fin drush status
- Drupal version   : 8.5.4                                 
+ Drupal version   : 8.5.4
  Drush version    : 9.3.0
 ```
 
@@ -235,10 +236,10 @@ Repeat for each of the aliases you have. Put all of them into the same file, and
 
 ```bash
 $ drush @mysite.dev status
- Drupal version   : 8.5.4                                                    
- Database         : Connected                                                
- Drupal bootstrap : Successful                                               
- Drush version    : 9.3.0                                                    
+ Drupal version   : 8.5.4
+ Database         : Connected
+ Drupal bootstrap : Successful
+ Drush version    : 9.3.0
 Connection to mysite.ssh.acquia-sites.com closed.
 ```
 

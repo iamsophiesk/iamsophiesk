@@ -2,6 +2,7 @@
 title: Make a file executable in Git
 description: I make it a habit to ignore all file permission changes in Git, but sometimes I need to make a script executable. This is how I change the permissions on a file in such a way that they're stored in the repo.
 date: 2018-10-22
+permalink: "posts/{{ date | date: '%Y/%m' }}/{{ title | slug }}/index.html"
 tags:
   - work
   - drupal

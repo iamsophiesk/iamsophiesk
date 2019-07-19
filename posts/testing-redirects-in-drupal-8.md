@@ -2,6 +2,7 @@
 title: Testing redirects in Drupal 8
 description: I'm setting up a controller on Drupal 8 which should redirct to the home page if certain query parameters aren't set. Writing a test to make sure that the redirect happens correctly took longer than expected. After trying a number of different approaches, I finally figured it out.
 date: 2019-01-03
+permalink: "posts/{{ date | date: '%Y/%m' }}/{{ title | slug }}/index.html"
 tags:
   - work
   - drupal
@@ -29,7 +30,7 @@ There in the patch was a useful assertion to check the current address:
 
 Pop that into my test and it works like a charm:
 
-```php  
+```php
 public function testDirectAccessNoParameters() {
  // If no parameters are provided, expect a redirect.
  $this->drupalGet('add-product');

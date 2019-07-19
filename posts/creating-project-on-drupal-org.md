@@ -2,6 +2,7 @@
 title: Creating and releasing a project on Drupal.org
 description: Over the course of a recent project, I helped to write some custom modules that have been reused across a few other projects internally. Instead of keeping them internal, I decided to open-source them and post them on Drupal.org, feeding back to the community and ensuring the stability and safety of the code. I found the process to be quite difficult to follow, so here's a handy summary of how to publish a module to Drupal.org, and some tips and tricks along the way.
 date: 2018-04-18
+permalink: "posts/{{ date | date: '%Y/%m' }}/{{ title | slug }}/index.html"
 tags:
   - work
   - drupal

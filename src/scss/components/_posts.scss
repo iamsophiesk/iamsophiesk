@@ -1,0 +1,20 @@
+/* Styling for individual posts. */
+.tmpl-post {
+  h2 {
+    position: relative;
+  }
+
+  .permalink {
+    font-size: $font-size-permalink;
+    position: absolute;
+    left: -3.5rem;
+    top: 1.3rem;
+    display: none;
+  }
+
+  &:hover {
+    .permalink {
+      display: block;
+    }
+  }
+}

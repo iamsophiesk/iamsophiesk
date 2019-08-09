@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Twitterings</title>
+    <title>My Posts</title>
     <meta name="Description" content="Personal site and blog of Sophie S-K.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Literata:400,500,700|Muli:400,400i,600&display=swap" rel="stylesheet">
@@ -28,9 +28,17 @@
 <h2>Recent posts</h2>
 
 
-
-
-  <div class="post">
+<div class="post">
+    <div class="post-header">
+      <h3><a href="/posts/2019/08/user-registration-using-simple-oauth/">User registration using Simple Oauth</a></h3>
+    </div>
+    <div class="post-metadata">
+      <time class="postlist-date" datetime="2019-08-09">09 Aug 2019</time>
+    </div>
+    <div class="post-content">
+      <p>In a headless setup, I wanted to protect the user registration endpoint from being accessed by unauthenticated users. I achieved it using the Simple Oauth module.</p>
+    </div>
+  </div><div class="post">
     <div class="post-header">
       <h3><a href="/posts/2019/01/testing-redirects-in-drupal-8/">Testing redirects in Drupal 8</a></h3>
     </div>
@@ -40,9 +48,7 @@
     <div class="post-content">
       <p>I'm setting up a controller on Drupal 8 which should redirct to the home page if certain query parameters aren't set. Writing a test to make sure that the redirect happens correctly took longer than expected. After trying a number of different approaches, I finally figured it out.</p>
     </div>
-  </div>
-
-  <div class="post">
+  </div><div class="post">
     <div class="post-header">
       <h3><a href="/posts/2018/10/make-a-file-executable-in-git/">Make a file executable in Git</a></h3>
     </div>
@@ -54,34 +60,19 @@
     </div>
   </div>
 
-  <div class="post">
-    <div class="post-header">
-      <h3><a href="/posts/2018/07/upgrading-from-drush-8-to-9-with-acquia/">Upgrading from Drush 8 to 9 with Acquia</a></h3>
-    </div>
-    <div class="post-metadata">
-      <time class="postlist-date" datetime="2018-07-04">04 Jul 2018</time>
-    </div>
-    <div class="post-content">
-      <p>While starting on a new project recently, I decided to take the plunge and upgrade to Drush 9. The upgrade process, especially since it's an Acquia site, was a little bit haphazard. In this post I'll describe the issues I faced and how I resolved them.</p>
-    </div>
-  </div>
-
-
-
-
         </div>
 
         <aside class="four columns">
           <h2>Get around</h2>
           <nav>
-            <ul class="navigation-main"><li class="nav-item nav-item-active"><a href="/">Home</a></li><li class="nav-item"><a href="/posts/">All posts</a></li><li class="nav-item"><a href="/about/">About</a></li><li class="nav-item"><a href="/cv/">My CV</a></li></ul>
+            <ul class="navigation-main"><li class="nav-item"><a href="/cv/">My CV</a></li><li class="nav-item"><a href="/about/">About</a></li><li class="nav-item"><a href="/posts/">All posts</a></li></ul>
           </nav>
 
           <h3>Find me on...</h3>
           <ul class="navigation-footer">
-            <li><i class="fab fa-drupal"></i><a href="https://www.drupal.org/u/sophiesk">Drupal.org</a></li>
-            <li><i class="fab fa-twitter"></i><a href="https://www.twitter.com/iamsophiesk">Twitter</a></li>
-            <li><i class="fab fa-github"></i><a href="https://github.com/Tawreh">Github</a></li>
+            <li><a href="https://www.drupal.org/u/sophiesk"><i class="fab fa-drupal"></i> Drupal.org</a></li>
+            <li><a href="https://www.twitter.com/iamsophiesk"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="https://github.com/Tawreh"><i class="fab fa-github"></i> Github</a></li>
           </ul>
         </aside>
       </div>
@@ -101,7 +92,5 @@
         </div>
       </div>
     </footer>
-
-    <!-- Current page: / -->
   </body>
 </html>

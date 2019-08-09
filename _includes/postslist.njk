@@ -1,4 +1,12 @@
-{% for post in postslist | reverse %}
+---
+title: My Posts
+pagination:
+  data: collections.posts
+  size: 5
+  alias: posts
+---
+
+{%- for post in collections.posts | reverse -%}
   <div class="post">
     <div class="post-header">
       <h3><a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a></h3>
@@ -10,4 +18,4 @@
       <p>{{ post.data.description | safe }}</p>
     </div>
   </div>
-{% endfor %}
+{%- endfor -%}

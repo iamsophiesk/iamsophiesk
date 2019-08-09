@@ -3,8 +3,23 @@ layout: layouts/home.njk
 tags:
   - nav
 navtitle: All posts
+pagination:
+  data: collections.posts
+  size: 2
+  alias: posts
 permalink: /posts/
 ---
 
-{% set postslist = collections.posts %}
-{% include "postslist.njk" %}
+{% for post in posts | reverse %}
+  <div class="post">
+    <div class="post-header">
+      <h3><a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a></h3>
+    </div>
+    <div class="post-metadata">
+      <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+    </div>
+    <div class="post-content">
+      <p>{{ post.data.description | safe }}</p>
+    </div>
+  </div>
+{% endfor %}

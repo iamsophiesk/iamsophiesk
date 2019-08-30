@@ -69,7 +69,7 @@ I followed the instructions on the project page and was soon receiving access to
 ```bash
 curl -i -X POST \
    -H "Content-Type:application/x-www-form-urlencoded" \
-   -d "grant_type=client_credentials" \
+   -d "grant_type=client_credentials" \it s
    -d "client_id=consumer-uuid" \
    -d "client_secret=a_secret_value" \
    -d "username=api" \
@@ -100,9 +100,9 @@ curl -i -X POST \
    -H "Authorization:Bearer [auth token]" \
    -d \
 '{
-	"name": [{"value": "Test User"}],
+  "name": [{"value": "Test User"}],
   "status": [{"value": 1}],
-	"mail": [{"value": "mytestuser@test.com"}],
+  "mail": [{"value": "mytestuser@test.com"}],
   "pass": [{"value": "password"}]
 }' \
  'https://drupal.instance/entity/user?_format=json'

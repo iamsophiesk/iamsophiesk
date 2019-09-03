@@ -20,3 +20,33 @@ aside {
     }
   }
 }
+
+footer {
+  ul {
+    list-style: none;
+
+    li {
+      display: inline-block;
+
+      a {
+        margin: auto 1rem;
+      }
+
+      &::after {
+        content: "\00B7";
+      }
+
+      &:first-of-type {
+        a {
+          margin-left: 0;
+        }
+      }
+
+      &:last-of-type {
+        &::after {
+          content: "";
+        }
+      }
+    }
+  }
+}

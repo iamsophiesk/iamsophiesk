@@ -6,6 +6,7 @@ permalink: "posts/{{ date | date: '%Y/%m' }}/{{ title | slug }}/index.html"
 tags:
   - work
   - drupal
+  - post
 layout: layouts/post.njk
 ---
 **While starting on a new project recently, I decided to take the plunge and upgrade to [Drush 9][1]. The upgrade process, especially since it's an Acquia site, was a little bit haphazard. In this post I'll describe the issues I faced and how I resolved them.**

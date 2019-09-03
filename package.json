@@ -1,7 +1,6 @@
 {
   "name": "iamsophie.sk",
   "description": "Personal website of Sophie Shanahan-Kluth.",
-  "main": "index.js",
   "version": "5.0.0",
   "scripts": {
     "build": "npx eleventy",

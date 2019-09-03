@@ -12,7 +12,7 @@ templateClass: tmpl-page
 
 ### About me
 
-I'm Sophie, a 28-year-old, 6'2″ web developer based in Bristol. I moved here from Lincolnshire when I started university and fell head-over-heels for the place. :)
+I'm Sophie, a 29-year-old, 6'2″ web developer based in Bristol. I moved here from Lincolnshire when I started university and fell head-over-heels for the place. :)
 
 A graduate of Web Design from UWE in Bristol, I like drinking coffee, listening to music, baking, drawing, knitting, crochet, roleplay gaming, cross stitching and fantasy writing. And cats. I really like cats.
 
@@ -39,11 +39,13 @@ I have experience with ...
 
 #### Focusrite-Novation - June 2019 to present
 
+[Website](https://focusrite.com)
+
 To do!!
 
 #### Microserve - May 2014 to May 2019
 
-[Website](http://microserve.io/)
+[Website](https://microserve.io/)
 
 Working as a senior Drupal developer. In my time here, I worked on several large Drupal projects, including:
 *   [WWF-UK support](https://support.wwf.org.uk/)
@@ -54,7 +56,7 @@ Working as a senior Drupal developer. In my time here, I worked on several large
 
 #### Circle Interactive - July 2011 to May 2014
 
-[Website](http://circle-interactive.co.uk/)
+[Website](https://circle-interactive.co.uk/)
 
 I started at Circle for my placement year between July 2011 and September 2012. During my final year of uni (Sept 2012 - May 2013), I worked at Circle while studying, during holidays and once every other week when my timetable allowed. I was hired straight out of university, starting full time as soon as my exams finished at the end of May 2013.
 

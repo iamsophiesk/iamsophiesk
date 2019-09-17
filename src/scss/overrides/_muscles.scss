@@ -27,6 +27,12 @@ pre {
   }
 }
 
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-top: 2px solid $c-paynes-grey;
+}
+
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px,1px,1px,1px);

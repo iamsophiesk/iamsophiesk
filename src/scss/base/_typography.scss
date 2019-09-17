@@ -67,9 +67,14 @@ h6 {
 }
 
 blockquote {
-  border-left: 4px solid $c-isabelline;
+  background-color: $c-isabelline-light;
+  border-left: 4px solid $c-isabelline-dark;
   color: $gray-darker;
-  padding-left: 2.5rem;
+  padding: 1rem 0 1rem 2.5rem;
+
+  > p:last-child {
+    margin-bottom: 0;
+  }
 }
 
 ul,

@@ -5,8 +5,6 @@ templateClass: templ-page
 permalink: about/styleguide/index.html
 ---
 
-## Basic type
-
 # Heading number 1
 
 Jelly-o pudding macaroon tart marzipan. Candy canes gummi bears croissant jelly-o. Danish pudding marshmallow bear claw cotton candy sesame snaps topping bear claw tiramisu. Croissant gummi bears chupa chups soufflé jelly apple pie donut. Cake bear claw chocolate bar pie tiramisu biscuit tiramisu sugar plum. Apple pie cake cupcake.

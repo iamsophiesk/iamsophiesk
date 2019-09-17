@@ -2,6 +2,7 @@
 layout: layouts/page.njk
 title: Styleguide
 templateClass: templ-page
+permalink: about/styleguide/index.html
 ---
 
 ## Basic type

@@ -2,6 +2,7 @@
 layout: layouts/page.njk
 title: Site credits
 templateClass: tmpl-post
+permalink: about/credits/index.html
 ---
 
 This site is built using [Netlify][1] and [11ty][2]. The basic blog framework is from the [11ty base blog][3].

@@ -1,0 +1,14 @@
+---
+layout: layouts/home.njk
+tags:
+  - nav
+navtitle: All posts
+pagination:
+  data: collections.posts
+  size: 10
+  alias: posts
+permalink: /posts/
+---
+
+{% set postslist = collections.posts %}
+{% include "layouts/posts/post-list.njk" %}

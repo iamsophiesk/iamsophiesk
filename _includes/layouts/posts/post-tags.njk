@@ -1,0 +1,11 @@
+{% if posttags %}
+  <div class="post-tags">
+    <strong>Tagged:</strong>
+    {% for tag in posttags %}
+      {%- if tag != "posts" -%}
+        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+        <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+      {%- endif -%}
+    {% endfor %}
+  </div>
+{% endif %}

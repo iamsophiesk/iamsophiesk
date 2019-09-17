@@ -7,7 +7,7 @@ tags:
   - work
   - drupal
   - post
-layout: layouts/post.njk
+layout: post
 ---
 I make it a habit to ignore all file permission changes in Git, but sometimes I need to make a script executable. This is how I change the permissions on a file in such a way that they're stored in the repo.
 

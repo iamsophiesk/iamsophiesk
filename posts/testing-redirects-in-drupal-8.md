@@ -7,7 +7,7 @@ tags:
   - work
   - drupal
   - post
-layout: layouts/post.njk
+layout: post
 ---
 **I'm setting up a controller on Drupal 8 which should redirect to the home page if certain query parameters aren't set. Writing a test to make sure that the redirect happens correctly took longer than expected. After trying a number of different approaches, I finally figured it out.**
 

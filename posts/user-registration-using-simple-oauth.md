@@ -7,7 +7,7 @@ tags:
   - work
   - drupal
   - post
-layout: layouts/post.njk
+layout: post
 ---
 We've struggled with spam registrations previously, and protecting the user account form is easy: you add a Captcha, or Honeypot, and most spam registrations are avoided. It's a lot more difficult to do that in a headless situation though. With a separate application that needs to be able to send user registrations through to a central Drupal repository, how do you make it possible for anonymous users to register without allowing spam bots to flood the endpoint?
 

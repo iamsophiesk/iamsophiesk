@@ -5,6 +5,7 @@ tags:
   - nav
 navtitle: My CV
 templateClass: tmpl-page
+permalink: about/cv/index.html
 ---
 
 *   <https://iamsophie.sk>

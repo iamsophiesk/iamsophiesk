@@ -4,6 +4,7 @@ title: About Me
 tags:
   - nav
 navtitle: About
+permalink: about/index.html
 ---
 
 Hi! My name is Sophie Shanahan-Kluth, or just Sophie S-K for short. I usually go by the shorter version where possible, because my full name often doesn't fit into name fields.

@@ -7,7 +7,7 @@ tags:
   - work
   - drupal
   - post
-layout: layouts/post.njk
+layout: post
 ---
 Over the course of my latest project at [Microserve][1], I've helped to write some custom modules that have been reused across a few other projects internally. Instead of keeping them internal, I decided to open-source them and post them on Drupal.org, feeding back to the community and ensuring the stability and safety of the code.
 

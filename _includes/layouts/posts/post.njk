@@ -10,7 +10,8 @@ templateClass: tmpl-post
 <div class="post-metadata">
   <p>
     <strong>Posted:</strong> <time class="post-date" datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time><br>
-    <strong>Tagged:</strong> {{ tags }}
+    {% set posttags = tags %}
+    {% include "layouts/posts/post-tags.njk" %}
   </p>
 </div>
 

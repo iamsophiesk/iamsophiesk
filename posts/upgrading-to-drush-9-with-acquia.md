@@ -2,16 +2,13 @@
 title: Upgrading from Drush 8 to 9 with Acquia
 description: While starting on a new project recently, I decided to take the plunge and upgrade to Drush 9. The upgrade process, especially since it's an Acquia site, was a little bit haphazard. In this post I'll describe the issues I faced and how I resolved them.
 date: 2018-07-04
-permalink: "posts/{{ date | date: '%Y/%m' }}/{{ title | slug }}/index.html"
 tags:
   - work
   - drupal
-  - post
+  - acquia
 layout: post
 ---
-**While starting on a new project recently, I decided to take the plunge and upgrade to [Drush 9][1]. The upgrade process, especially since it's an Acquia site, was a little bit haphazard. In this post I'll describe the issues I faced and how I resolved them.**
-
-<!--more-->
+While starting on a new project recently, I decided to take the plunge and upgrade to [Drush 9][1]. The upgrade process, especially since it's an Acquia site, was a little bit haphazard. In this post I'll describe the issues I faced and how I resolved them.
 
 ### A bit of background
 

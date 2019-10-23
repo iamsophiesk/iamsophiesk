@@ -2,11 +2,9 @@
 title: Creating fields in update hooks on Drupal 8
 description: You've got an update hook that depends on a new field that depends on config import that needs to be done after the update hook has run that requires the config import that needs... ARGH.
 date: 2019-08-30
-permalink: "posts/{{ date | date: '%Y/%m' }}/{{ title | slug }}/index.html"
 tags:
   - work
   - drupal
-  - post
 layout: post
 ---
 Everyone's seen this issue when updating a Drupal 8 site: you've got an update hook that depends on a new field that will be created when your config gets imported, but you want the database to be up-to-date before config is imported, so you run database updates before config imports. Then your update fails, because your field doesn't exist yet.

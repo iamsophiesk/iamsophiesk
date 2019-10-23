@@ -2,11 +2,9 @@
 title: Running functional JavaScript tests in Docksal
 description: Running PHPUnit tests in Docksal is straightforward, but we struggled to get Functional JavaScript tests to run within Docksal. Here's how we got them working.
 date: 2019-10-16
-permalink: "posts/{{ date | date: '%Y%m' }}/{{ title | slug }}/index.html"
 tags:
   - work
-  - drupal
-  - post
+  - docksal
 layout: post
 ---
 Testing your work is important, there is absolutely no doubt about it. For a while I've been writing and running PHPUnit tests for Drupal sites that I work on, working mainly with Unit and Kernel tests. With [Docksal](https://docksal.io), I've been able to run Functional tests as well (where I was struggling to get my Docker containers to talk to each other previously). However Functional JavaScript tests were proving an unusual hurdle.

@@ -8,11 +8,6 @@ templateClass: tmpl-page
 permalink: about/cv/index.html
 ---
 
-*   <https://iamsophie.sk>
-*   [sophie@iamsophie.sk](mailto:sophie@iamsophie.sk)
-
-### About me
-
 I'm Sophie, a 29-year-old, 6'2″ web developer based in Bristol. I moved here from Lincolnshire when I started university and fell head-over-heels for the place. :)
 
 A graduate of Web Design from UWE in Bristol, I like drinking coffee, listening to music, baking, drawing, knitting, crochet, roleplay gaming, cross stitching and fantasy writing. And cats. I really like cats.
@@ -23,26 +18,43 @@ I have experience with ...
 
 *   Mentorship of junior developers in a team environment
 *   Leading development projects and spearheading technical and architectural decisions across teams and companies
-*   Technical advice, offering advice to other teams and other agencies
-*   Assisting project and technical managers to make project- and company-level decisions
-*   Contribution to open-source software initiatives (Drupal core and contrib modules)
-*   PHP and MySQL, mainly through Drupal but with knowledge of Symfony and related technologies
+*   Technical advice, offering advice to other teams and other agencies, acting as a consultant
+*   Assisting project and technical owners to make project- and company-level decisions
+*   Contribution to open-source software initiatives (Drupal core and contrib modules, Magento)
+*   Maintenance of my own open-source modules on Drupal.org:
+    *   [Simple Integrations](https://drupal.org/project/simple_integrations)
+    *   [Message Banner](https://www.drupal.org/project/message_banner)
+    *   [Simple Iubenda](https://www.drupal.org/project/iubenda)
+    *   [CKEditor Spotify (sandbox)](https://www.drupal.org/sandbox/sophiesk/3091513)
+*   PHP and MySQL, mainly through Drupal but with good knowledge of Symfony and related technologies
 *   Drupal 7 and 8, writing custom modules for each, maintaining other peoples' codebases
-*   JavaScript and jQuery, used mainly within the Drupal framework
+*   JavaScript and jQuery/Ajax, used mainly within the Drupal framework
 *   The command line, mostly Linux-based, using Vim, MySQL and other command line tools
 *   Systems administration, including set up of sites on remote servers, configuring installations, and deployments to multiple environments
-*   Git-based workflows and technologies, using Gitlab, Github and Bitbucket, with a strong emphasis on collaborative work
-*   Writing project documentation for a range of audiences, including clients and other developers
-*   Working to coding standards and receiving/performing code reviews
-*   Web accessibility standards and making websites easy-to-use
+*   Git-based workflows and technologies, using Gitlab, Github and Bitbucket, with a strong emphasis on collaborative work and peer review
+*   Writing project documentation for a range of audiences, including clients, test engineers, and other developers
+*   Working to coding standards and receiving/performing code reviews, and implementing code-sniffing tools
+*   Writing PHPUnit tests within the Drupal framework
+*   Web accessibility standards and making websites compliant with WCAG guidelines
+*   Working with hosting platforms such as Acquia, DigitalOcean, Pantheon and completely custom server setups
+
+### Accolades
+
+*   [Drupal 7 Grand Master (2015) & Drupal 8 Grand Master (2018)](https://certification.acquia.com/user/957758)
+    *   First female to earn each of these certificates in the UK
+*   [BIMA 100 (2016)](https://issuu.com/bima-awards/docs/bima_book_100_web/32)
+*   [The Drum 50 under 30 (2015)](https://www.thedrum.com/news/2015/10/23/drums-50-under-30-2015-meet-young-female-trailblazers-taking-over-digital)
 
 ### Work
 
 #### Focusrite-Novation - June 2019 to present
 
-[Website](https://focusrite.com)
+Working as a senior Drupal developer. In my time here, I worked on many of the company's sites and systems, bridging gaps between teams and trying to provide internal value as much as customer-facing value.
 
-To do!!
+Their websites include:
+*   [Focusrite](https://focusrite.com/)
+*   [Novation](https://novationmusic.com/)
+*   [Customer website](https://customer.focusrite.com)
 
 #### Microserve - May 2014 to May 2019
 
@@ -53,7 +65,25 @@ Working as a senior Drupal developer. In my time here, I worked on several large
 *   [YHA Families & Individuals](https://www.yha.org.uk/)
 *   [YHA Groups](https://groups.yha.org.uk/)
 *   [CarePlanner](http://care-planner.co.uk)
-*   [Simitive](http://simitive.com)
+
+My work included:
+
+*   Headless Drupal work, using one Drupal site for content and a separate website to serve the content and images
+*   Implementation of checkouts using [Drupal Commerce](https://drupal.org/project/commerce):
+    *    Integration with external systems for stock management
+    *    Creation of custom products on the fly, based on user-provided criteria
+    *    Single-page checkout flows
+    *    Integration with external CRMs to store customer and order data
+    *    Fulfilment using the Commerce Shipping module, modifiying it to work per-item in cart
+    *    Complex Ajax functionality, requesting live data from external systems and updating cart data based on user criteria
+*   Complex front-end work, restructuring themes and templates, working with ES6 JavaScript
+*   Implementation of a continuous deployment workflow, maintaining a Jenkins server and scripts to run automated deployments
+*   Migration from Bitbucket to GitLab for all projects, including associated training of other staff members and integration with the CD workflow
+*   Pioneering the use of Docker, creating easy-start scripts in Bash that allowed any developer to pick up the work, and then helping to migrate to Docksal
+*   Using Scrum and Agile working methods, building sprints and working on regular releases for clients
+*   Introducing `#thanks` and `#animals` channels to the company Slack and starting regular brown-bag lunch sessions for people to catch up and relax, to help boost morale
+*   Advocating for a consistent project experience, unifying and standardising the company's toolset, greatly reducing the time-to-developing for developers joining a project
+*   Setting up remote servers and providing documentation for their handover
 
 #### Circle Interactive - July 2011 to May 2014
 
@@ -109,14 +139,4 @@ Recently I've started to focus on health - not only my health but that of my col
 
 ### References
 
-#### Andy Dempster
-
-Web team lead at Focusrite ·  [andrew.dempster@focusrite.com](mailto:andrew.dempster@focusrite.com)
-
-#### Em Coward
-
-Head of development at Microserve · [emily@microserve.io](mailto:emily@microserve.io)
-
-#### Dan McNamara
-
-Managing director at Microserve ·  [dan.mcnamara@microserve.io](mailto:dan.mcnamara@microserve.io) · [0117 214 0554](tel:+441172140554)
+References are supplied on request.

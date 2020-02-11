@@ -10,15 +10,19 @@ permalink: about/cv/index.html
 
 I'm Sophie, a 29-year-old, 6'2″ web developer based in Bristol. I moved here from Lincolnshire when I started university and fell head-over-heels for the place. :)
 
-A graduate of Web Design from UWE in Bristol, I like drinking coffee, listening to music, baking, drawing, knitting, crochet, roleplay gaming, cross stitching and fantasy writing. And cats. I really like cats.
+A graduate of Web Design from UWE in Bristol, I like drinking coffee, listening to music, baking, drawing, knitting, crochet, roleplay gaming, aikido, cross stitching and fantasy writing. And cats. I really like cats.
+
+### Contact information
+
+You can get in touch by email at [sophie@iamsophie.sk](mailto:sophie@iamsophie.sk).
 
 ### General overview
 
 I have experience with ...
 
-*   Mentorship of junior developers in a team environment
+*   Mentorship of developers in a team environment
 *   Leading development projects and spearheading technical and architectural decisions across teams and companies
-*   Technical advice, offering advice to other teams and other agencies, acting as a consultant
+*   Offering technical advice to other teams and agencies, acting as a consultant
 *   Assisting project and technical owners to make project- and company-level decisions
 *   Contribution to open-source software initiatives (Drupal core and contrib modules, Magento)
 *   Maintenance of my own open-source modules on Drupal.org:
@@ -29,9 +33,9 @@ I have experience with ...
 *   PHP and MySQL, mainly through Drupal but with good knowledge of Symfony and related technologies
 *   Drupal 7 and 8, writing custom modules for each, maintaining other peoples' codebases
 *   JavaScript and jQuery/Ajax, used mainly within the Drupal framework
-*   The command line, mostly Linux-based, using Vim, MySQL and other command line tools
 *   Systems administration, including set up of sites on remote servers, configuring installations, and deployments to multiple environments
 *   Git-based workflows and technologies, using Gitlab, Github and Bitbucket, with a strong emphasis on collaborative work and peer review
+*   Using front-end build tools including Gulp, PatternLab and npm, both picking up projects and adding build tools to existing projects
 *   Writing project documentation for a range of audiences, including clients, test engineers, and other developers
 *   Working to coding standards and receiving/performing code reviews, and implementing code-sniffing tools
 *   Writing PHPUnit tests within the Drupal framework
@@ -119,7 +123,7 @@ Other modules included:
 
 #### A-levels
 
-Attended <abbr title="Sleaford Joint Sixth Form">SJSF</abbr> in Lincolnshire from September 2007 to July 2009. Left with three A-levels and one BTEC Certificate in Art & Design (grade MM).
+Attended Sleaford Joint Sixth Form in Lincolnshire from September 2007 to July 2009. Left with three A-levels and one BTEC Certificate in Art & Design (grade MM).
 
 BTEC units included: web design (in final major project, self-created brief), photography, fashion illustration, textile work, art history, logo/brand design, typography.
 
@@ -131,12 +135,16 @@ I've been working with the web since I was 14, and since then I've become a huge
 
 I work best with people who are driven and details-oriented, and thrive when given a task to do and a deadline. I enjoy taking the time to get stuck into a project, understanding the client's objectives and seeing the project through to the end. I don't like leaving tasks half-finished.
 
-I enjoy learning and sharing new knowledge with others. During my time at Microserve I've taken on the role of a mentor, helping to teach students and junior devs how to assess priorities, discover solutions, and ultimately complete their own work in a thorough, timely manner. My emphasis is on teaching people to be strong independent learners, with keen attention to detail and a desire to achieve the best.
+I'm a huge believer in laying solid foundations for future work: unless strictly necessary I don't cut corners during development if I can help it. It feels like a disservice to a team of developers to build technical debt in, and I will strive to build things correctly the first time around. If I can't, I do my best to document (through tickets in a backlog, or in a Wiki or equivalent) the things that will need improving. I don't just code for me, I code for a team, and they are at the forefront of my mind, always.
+
+I enjoy learning and sharing new knowledge with others. During my time at Microserve I took on the role of a mentor, helping to teach students and junior devs how to assess priorities, discover solutions, and ultimately complete their own work in a thorough, timely manner. My emphasis is on teaching people to be strong independent learners, with keen attention to detail and a desire to achieve the best.
 
 Oh ... and I really like writing documentation! I know that sounds weird, but I think it’s important to make it as easy as possible for others to pick up systems. I get frustrated when documentation isn’t provided, so I do my best to provide it for others.
 
 Recently I've started to focus on health - not only my health but that of my colleagues and friends. Maintaining a healthy mind and body is a really important thing for anyone to do, so I push for all of my colleagues to keep an eye on their work-life balance and offer support wherever I can.
 
+I love receiving feedback on my self and my behaviours, and actively encourage people to let me know if I can improve myself. It's been a hard road of learning that not everyone else feels the same way, but that's one of the many things I'm learning!
+
 ### References
 
-References are supplied on request.
+References available on request.

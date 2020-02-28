@@ -43,7 +43,15 @@ h3 {
 }
 
 h1 {
-  font-size: $font-size-h1;
+  font-size: $font-size-h1-small;
+
+  @media (min-width: 450px) {
+    font-size: $font-size-h1-medium;
+  }
+
+  @media (min-width: 750px) {
+    font-size: $font-size-h1-large;
+  }
 }
 
 h2 {

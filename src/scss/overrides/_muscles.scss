@@ -21,7 +21,7 @@ h6 {
 }
 
 pre {
-  > code {
+  > code[class^="language"] {
     border: 0;
     background: none;
   }

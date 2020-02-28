@@ -1,0 +1,78 @@
+---
+permalink: /sitemap.xsl
+eleventyExcludeFromCollections: true
+sitemapIgnore: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="2.0"
+                xmlns:html="http://www.w3.org/TR/REC-html40"
+                xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes"/>
+  <xsl:template match="/">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <title>Twitterings - XML Sitemap</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <style type="text/css">
+          body {
+            font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Verdana, sans-serif;
+            font-size: 13px;
+          }
+
+          th {
+            text-align: left;
+            padding-right: 30px;
+            background-color: whitesmoke;
+            border-bottom: 2px solid gray;
+          }
+
+          tr.zebra {
+            background-color: whitesmoke;
+          }
+        </style>
+      </head>
+      <body>
+        <h1>Twitterings sitemap</h1>
+        <div id="content">
+          <table cellpadding="5">
+            <thead>
+              <tr>
+                <th>URL</th>
+                <th>Priority</th>
+                <th>Change Frequency</th>
+                <th>Last Change</th>
+              </tr>
+            </thead>
+            <xsl:for-each select="sitemap:urlset/sitemap:url">
+            <tbody>
+              <tr>
+                <xsl:if test="position() mod 2 != 1">
+                  <xsl:attribute  name="class">zebra</xsl:attribute>
+                </xsl:if>
+                <td>
+                  <xsl:variable name="itemURL">
+                    <xsl:value-of select="sitemap:loc"/>
+                  </xsl:variable>
+                  <a href="{$itemURL}">
+                    <xsl:value-of select="sitemap:loc"/>
+                  </a>
+                </td>
+                <td>
+                  <xsl:value-of select="concat(sitemap:priority*100,'%')"/>
+                </td>
+                <td>
+                  <xsl:value-of select="sitemap:changefreq"/>
+                </td>
+                <td>
+                  <xsl:value-of select="sitemap:lastmod"/>
+                </td>
+              </tr>
+            </tbody>
+            </xsl:for-each>
+          </table>
+        </div>
+      </body>
+    </html>
+  </xsl:template>
+</xsl:stylesheet>

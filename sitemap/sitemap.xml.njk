@@ -1,0 +1,19 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+sitemapIgnore: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for item in collections.all %}
+{%- if item.data.sitemapIgnore !== true %}
+  <url>
+    <loc>{{ item.url | url | absoluteUrl(metadata.url) }}</loc>
+    <lastmod>{{ item.date | readableDate }}</lastmod>
+    <changefreq>{{ item.data.changefreq | default('') }}</changefreq>
+    <priority>{{ item.data.priority | default("0.5") }}</priority>
+  </url>
+{%- endif %}
+{%- endfor %}
+</urlset>

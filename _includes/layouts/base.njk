@@ -12,6 +12,12 @@
     <script src="https://kit.fontawesome.com/8baa477886.js" integrity="sha384-0R8uMnSIOPPA/NyiuIGzF0KZK3ufYUg1PTAXKjJwPys6vjFgtPpxoyGIF+ekBFlR" crossorigin="anonymous"></script>
   </head>
   <body{% if page.fileSlug %} class="{{ page.fileSlug }}"{% endif %}>
+    <div class="container">
+      <div class="row skip-link--wrapper">
+        <a href="#main-content" class="visually-hidden skip-link">Skip to main content</a>
+      </div>
+    </div>
+
     <header class="site-info">
       <div class="container">
         <div class="row">
@@ -23,7 +29,7 @@
 
     <main class="container{% if templateClass %} {{ templateClass }}{% endif %}">
       <div class="row column-wrapper">
-        <div class="eight columns">
+        <div class="eight columns" id="main-content">
           {{ content | safe }}
         </div>
 

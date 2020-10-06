@@ -1,4 +1,23 @@
 /* Styling for the navigation. */
+.skip-link {
+  color: $c-tumbleweed-light;
+
+  &--wrapper {
+    text-align: center;
+  }
+
+  &:focus,
+  &:hover,
+  &:active {
+    clip: auto;
+    color: $c-tumbleweed-light;
+    height: auto;
+    overflow: visible;
+    padding: 10px;
+    width: auto;
+  }
+}
+
 aside {
   ul {
     list-style: none;

@@ -1,6 +1,6 @@
 /* Styling for the navigation. */
 .skip-link {
-  color: $c-tumbleweed-light;
+  color: $c-skip-link;
 
   &--wrapper {
     text-align: center;
@@ -10,7 +10,7 @@
   &:hover,
   &:active {
     clip: auto;
-    color: $c-tumbleweed-light;
+    color: $c-skip-link;
     height: auto;
     overflow: visible;
     padding: 10px;
@@ -25,16 +25,16 @@ aside {
 
   li {
     &:not(:last-child) {
-      border-bottom: 1px dotted $c-columbia-blue;
+      border-bottom: 1px dotted $c-links-navigation-accent;
     }
 
     a {
-      color: $c-medium-vermilion-dark;
+      color: $c-links-navigation;
       display: block;
       padding: 1.5rem;
 
       &:hover {
-        background-color: $c-columbia-blue;
+        background-color: $c-links-navigation-accent;
       }
     }
   }

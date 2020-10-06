@@ -13,26 +13,12 @@ body {
 }
 
 :focus {
-  outline: 2px solid $c-medium-vermilion;
+  outline: 2px solid $c-contrast;
 }
 
 p {
   margin-top: 0;
   margin-bottom: 2rem;
-}
-
-a {
-  border-bottom: 1px dashed $c-medium-vermilion;
-  color: $c-medium-vermilion-dark;
-  text-decoration: none;
-  transition: color 0.1s linear;
-
-  &:hover,
-  &:focus,
-  &:active {
-    color: $c-paynes-grey;
-    border-bottom: 1px solid $c-paynes-grey;
-  }
 }
 
 h1,
@@ -75,8 +61,8 @@ h6 {
 }
 
 blockquote {
-  background-color: $c-isabelline-light;
-  border-left: 4px solid $c-isabelline-dark;
+  background-color: lighten($c-body-background, 5%);
+  border-left: 4px solid darken($c-body-background, 20%);
   color: $gray-darker;
   padding: 1rem 0 1rem 2.5rem;
 

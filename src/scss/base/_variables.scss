@@ -65,7 +65,30 @@ $font-size-h1-small: 6rem;
 $font-size-small: 0.75rem;
 $font-size-permalink: 2.5rem;
 
-// Background colours.
+// Colours applied to things!!!
 // -----------------------------------------------------------------------------
 
+// Main body layout.
+$c-body-background: $c-isabelline;
+$c-body-header: $c-paynes-grey;
+$c-body-footer: $c-columbia-blue;
+$c-contrast: $c-medium-vermilion;
+
+// Type.
 $selection-bg: rgba($c-columbia-blue, 0.6);
+
+// Links.
+$c-links-default: darken($c-medium-vermilion, 20%);
+$c-links-default-accent: $c-medium-vermilion;
+$c-links-interacting: $c-paynes-grey;
+$c-skip-link: lighten($c-isabelline, 5%);
+$c-links-navigation: darken($c-medium-vermilion, 20%);
+$c-links-navigation-accent: $c-columbia-blue;
+$c-links-header: $c-columbia-blue;
+
+// Miscellaneous.
+$c-image-border: $c-paynes-grey;
+$c-table-header: $c-columbia-blue;
+$c-table-stripe: lighten($c-isabelline, 5%);
+$c-header-tagline: lighten($c-columbia-blue, 15%);
+$c-hr: $c-paynes-grey;

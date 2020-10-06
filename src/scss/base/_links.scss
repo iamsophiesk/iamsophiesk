@@ -1,0 +1,32 @@
+/* Link styling. */
+a {
+  border-bottom: 1px dashed $c-links-default-accent;
+  color: $c-links-default;
+  text-decoration: none;
+  transition: color 0.1s linear;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $c-links-interacting;
+    border-bottom: 1px solid $c-paynes-grey;
+  }
+}
+
+// #main-content a {
+//   background-image: linear-gradient($c-links-default-accent, $c-links-default-accent);
+//   background-position: 0 1.3em;
+//   background-repeat: repeat-x;
+//   background-size: .125rem .25rem;
+//   color: $c-links-default;
+//   text-decoration: none;
+//   transition: background-position .2s;
+//
+//   &:hover,
+//   &:focus,
+//   &:active {
+//     color: $c-links-interacting;
+//   	background-image: linear-gradient($c-links-interacting, $c-links-interacting);
+//   	background-position: 0 1em;
+//   }
+// }

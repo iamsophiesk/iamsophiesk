@@ -14,10 +14,10 @@ table {
   }
 
   th {
-    background-color: $c-columbia-blue;
+    background-color: $c-table-header;
   }
 
   tr:nth-child(2n+2) {
-    background-color: $c-isabelline-light;
+    background-color: $c-table-stripe;
   }
 }

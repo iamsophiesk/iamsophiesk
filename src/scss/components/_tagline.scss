@@ -5,12 +5,12 @@ header {
     a:hover,
     a:focus,
     a:active {
-      color: $c-columbia-blue;
+      color: $c-links-header;
       border-bottom: none;
     }
   }
 
   .tagline {
-    color: $c-columbia-blue-light;
+    color: $c-header-tagline;
   }
 }

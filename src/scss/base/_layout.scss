@@ -5,13 +5,13 @@ body {
 }
 
 body {
-  background: $c-isabelline;
+  background: $c-body-background;
   display: flex;
   flex-direction: column;
 }
 
 header {
-  background-color: $c-paynes-grey;
+  background-color: $c-body-header;
   padding-bottom: 4rem;
   padding-top: 8rem;
 
@@ -53,7 +53,7 @@ aside {
 }
 
 footer {
-  background: $c-columbia-blue;
+  background: $c-body-footer;
   flex-shrink: 0;
   padding-bottom: 4rem;
   padding-top: 8rem;

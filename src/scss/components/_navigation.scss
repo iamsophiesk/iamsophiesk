@@ -18,6 +18,62 @@
   }
 }
 
+.nav-container {
+  background-color: $c-body-nav;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+
+    @media (min-width: 550px) {
+      justify-content: left;
+      flex-direction: row;
+    }
+  }
+
+  a {
+    border: 0;
+    color: $c-links-main-navigation;
+    display: block;
+    font-size: 2rem;
+    padding: 1rem 0;
+    position: relative;
+    transition: 0.3s color ease;
+
+    &:focus,
+    &:hover,
+    &:active {
+      color: $c-links-main-navigation-accent;
+    }
+
+    &::after {
+      content: "";
+      transition: 0.3s all ease;
+      position: absolute;
+      bottom: 0;
+      height: 0.3rem;
+      width: 0;
+      background: $c-links-main-navigation-accent;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    &:focus::after,
+    &:hover::after,
+    &:active::after {
+      width: 100%;
+    }
+
+    @media (min-width: 550px) {
+      display: inline-block;
+      padding: 2rem;
+    }
+  }
+}
+
 aside {
   ul {
     list-style: none;

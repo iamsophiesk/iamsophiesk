@@ -6,7 +6,7 @@
     <title>Recent posts</title>
     <meta name="Description" content="Personal site and blog of Sophie S-K.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Literata:400,500,700|Muli:400,400i,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Twitterings">
     <script src="https://kit.fontawesome.com/8baa477886.js" integrity="sha384-0R8uMnSIOPPA/NyiuIGzF0KZK3ufYUg1PTAXKjJwPys6vjFgtPpxoyGIF+ekBFlR" crossorigin="anonymous"></script>
@@ -22,14 +22,24 @@
       <div class="container">
         <div class="row">
           <h1 class="site-title"><a href="/">Twitterings</a></h1>
-          <p class="tagline">Twitterings and ramblings of Sophie Shanahan-Kluth</p>
         </div>
       </div>
     </header>
 
+    <div class="nav-container">
+      <div class="container">
+        <div class="row">
+          <h2 class="visually-hidden">Navigation</h2>
+          <nav>
+            <ul class="navigation-main"><li class="nav-item"><a href="/about/">About</a></li><li class="nav-item"><a href="/posts/">All posts</a></li><li class="nav-item"><a href="/about/cv/">My CV</a></li></ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
     <main class="container tmpl-home">
       <div class="row column-wrapper">
-        <div class="eight columns" id="main-content">
+        <div class="twelve columns" id="main-content">
           
 <h2>Recent posts</h2>
 
@@ -106,27 +116,11 @@
 
 
         </div>
-
-        <aside class="four columns">
-          <h2 class="visually-hidden">Get around</h2>
-          <nav>
-            <ul class="navigation-main"><li class="nav-item"><a href="/about/">About</a></li><li class="nav-item"><a href="/posts/">All posts</a></li><li class="nav-item"><a href="/about/cv/">My CV</a></li></ul>
-          </nav>
-
-          <h3 class="visually-hidden">Find me on...</h3>
-          <ul class="navigation-footer">
-            <li><a href="https://www.drupal.org/u/sophiesk"><i class="fab fa-drupal"></i> Drupal.org</a></li>
-            <li><a href="https://www.twitter.com/iamsophiesk"><i class="fab fa-twitter"></i> Twitter</a></li>
-            <li><a href="https://github.com/Tawreh"><i class="fab fa-github"></i> Github</a></li>
-          </ul>
-        </aside>
       </div>
-    </main>
 
-    <footer>
-      <div class="container">
-        <div class="row">
-          <p>&copy; 2019 Sophie Shanahan-Kluth.</p>
+      <div class="row">
+        <footer>
+          <p>&copy; 2020 Sophie Shanahan-Kluth.</p>
 
           <ul class="navigation-footer">
             <li><a href="/about/credits">Credits</a></li>
@@ -136,17 +130,11 @@
             <li><a href="https://www.twitter.com/iamsophiesk"><i class="fab fa-twitter"></i><span class="visually-hidden">Twitter</span></a></li>
             <li><a href="https://github.com/Tawreh"><i class="fab fa-github"></i><span class="visually-hidden">Github</span></a></li>
           </ul>
-        </div>
+        </footer>
       </div>
-    </footer>
+    </main>
 
     <!-- Global site tag (gtag.js) - Google Analytics. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148175288-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-148175288-1');
-    </script>
+    
   </body>
 </html>

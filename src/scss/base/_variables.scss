@@ -19,39 +19,26 @@ $white: #fff;
 // Colours!!!
 // -----------------------------------------------------------------------------
 
-$c-medium-vermilion: #dd6e42;
-$c-medium-vermilion-dark: darken($c-medium-vermilion, 20%);
-$c-medium-vermilion-light: lighten($c-medium-vermilion, 15%);
-
-$c-wheat: #e8dab2;
-$c-wheat-dark: darken($c-wheat, 20%);
-$c-wheat-light: lighten($c-wheat, 15%);
-
-$c-paynes-grey: #4f6d7a;
-$c-paynes-grey-dark: darken($c-paynes-grey, 20%);
-$c-paynes-grey-light: lighten($c-paynes-grey, 15%);
-
-$c-columbia-blue: #c0d6df;
-$c-columbia-blue-dark: darken($c-columbia-blue, 20%);
-$c-columbia-blue-light: lighten($c-columbia-blue, 15%);
-
-$c-isabelline: #eaeaea;
-$c-isabelline-dark: darken($c-isabelline, 20%);
-$c-isabelline-light: lighten($c-isabelline, 5%);
+// From coolors.co: https://coolors.co/93b7be-554348-e0e6e6-8c9a9e-747578
+$c-sonic-silver: #747578;
+$c-cadet-grey: #8C9A9E;
+$c-dark-liver: #554348;
+$c-dark-sky-blue: #93B7BE;
+$c-platinum: #E0E6E6;
 
 // Fonts.
 // -----------------------------------------------------------------------------
 
-$font-family-literata: 'Literata', serif;
-$font-family-muli: 'Muli', sans-serif;
-$font-family-base: $font-family-muli;
-$font-family-headers: $font-family-literata;
+$font-family-source-sans-pro: 'Source Sans Pro', sans-serif;
+$font-family-patua-one: 'Patua One', serif;
+$font-family-base: $font-family-source-sans-pro;
+$font-family-headers: $font-family-patua-one;
 
 $font-weight-normal: 400;
 $font-weight-medium: 500;
 $font-weight-bold: 700;
 
-$font-size-base: 16px;
+$font-size-base: 18px;
 $font-size-h1: 12rem;
 $font-size-h2: 4rem;
 $font-size-h3: 3rem;
@@ -69,26 +56,39 @@ $font-size-permalink: 2.5rem;
 // -----------------------------------------------------------------------------
 
 // Main body layout.
-$c-body-background: $c-isabelline;
-$c-body-header: $c-paynes-grey;
-$c-body-footer: $c-columbia-blue;
-$c-contrast: $c-medium-vermilion;
+$c-body-background: $c-platinum;
+$c-body-header: $c-dark-liver;
+$c-body-subtitle: mix($c-dark-liver, $c-platinum, $weight: 25%);
+$c-body-nav: mix($c-dark-liver, $c-platinum, $weight: 25%);
+$c-body-footer: $c-platinum;
+$c-contrast: $c-cadet-grey;
 
 // Type.
-$selection-bg: rgba($c-columbia-blue, 0.6);
+$c-text: scale-color($c-dark-liver, $lightness: -10%);
+$selection-bg: rgba($c-cadet-grey, 0.6);
 
-// Links.
-$c-links-default: darken($c-medium-vermilion, 20%);
-$c-links-default-accent: $c-medium-vermilion;
-$c-links-interacting: $c-paynes-grey;
-$c-skip-link: lighten($c-isabelline, 5%);
-$c-links-navigation: darken($c-medium-vermilion, 20%);
-$c-links-navigation-accent: $c-columbia-blue;
-$c-links-header: $c-columbia-blue;
+// Body links.
+$c-links-default: $c-sonic-silver;
+$c-links-default-accent: scale-color($c-dark-sky-blue, $lightness: 30%);
+// $c-links-default-accent: $c-dark-sky-blue;
+$c-links-interacting: $c-dark-liver;
+
+// Header links.
+$c-skip-link: scale-color($c-platinum, $lightness: +10%);
+$c-links-header: $c-dark-sky-blue;
+$c-links-main-navigation: scale-color($c-sonic-silver, $lightness: -40%);
+$c-links-main-navigation-accent: scale-color($c-sonic-silver, $lightness: -20%);
+
+// Sidebar links.
+$c-links-navigation: scale-color($c-sonic-silver, $lightness: -20%);
+$c-links-navigation-accent: scale-color($c-platinum, $lightness: +20%);
+
+// Posts.
+$c-post-list-borders: $c-cadet-grey;
 
 // Miscellaneous.
-$c-image-border: $c-paynes-grey;
-$c-table-header: $c-columbia-blue;
-$c-table-stripe: lighten($c-isabelline, 5%);
-$c-header-tagline: lighten($c-columbia-blue, 15%);
-$c-hr: $c-paynes-grey;
+$c-image-border: $c-dark-liver;
+$c-table-header: $c-dark-sky-blue;
+$c-table-stripe: scale-color($c-platinum, $lightness: +10%);
+$c-header-tagline: scale-color($c-dark-sky-blue,  $lightness: +20%);
+$c-hr: $c-dark-liver;

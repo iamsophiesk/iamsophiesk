@@ -1,11 +1,12 @@
 /* Image styles. */
 img {
   border: {
-    width: 1px;
-    style: solid;
     color: $c-image-border;
-    radius: 1rem;
+    width: 1px;
+    radius: 0.5rem;
+    style: solid;
   }
+
   box-sizing: border-box;
   max-width: 100%;
   padding: 1rem;

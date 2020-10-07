@@ -33,6 +33,12 @@ hr {
   border-top: 2px solid $c-hr;
 }
 
+ol,
+ul {
+  list-style-position: initial;
+  padding-left: revert;
+}
+
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px,1px,1px,1px);

@@ -15,6 +15,7 @@ table {
 
   th {
     background-color: $c-table-header;
+    color: $c-table-header-text;
   }
 
   tr:nth-child(2n+2) {

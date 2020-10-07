@@ -8,7 +8,7 @@ templateClass: tmpl-page
 permalink: about/cv/index.html
 ---
 
-I'm Sophie, a 29-year-old, 6'2″ web developer based in Bristol. I moved here from Lincolnshire when I started university and fell head-over-heels for the place. :)
+I'm Sophie, a 30-year-old, 6'2″ web developer based in Bristol. I moved here from Lincolnshire when I started university and fell head-over-heels for the place. :)
 
 A graduate of Web Design from UWE in Bristol, I like drinking coffee, listening to music, baking, drawing, knitting, crochet, roleplay gaming, aikido, cross stitching and fantasy writing. And cats. I really like cats.
 

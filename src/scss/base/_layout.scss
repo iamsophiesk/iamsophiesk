@@ -12,10 +12,11 @@ body {
 
 header {
   background-color: $c-body-header;
-  padding-bottom: 4rem;
-  padding-top: 8rem;
+  padding-bottom: 2rem;
+  padding-top: 4rem;
 
   h1 {
+    font-size: 5rem;
     margin-bottom: 0;
   }
 
@@ -40,23 +41,18 @@ main {
 
   .column,
   .columns {
-    padding-bottom: 8rem;
+    padding-bottom: 2rem;
   }
 
   .twelve.columns {
-    padding-top: 4rem;
+    padding-top: 2rem;
   }
-}
-
-aside {
-  padding: 4rem 2rem 2rem;
 }
 
 footer {
   background: $c-body-footer;
   flex-shrink: 0;
-  padding-bottom: 4rem;
-  padding-top: 8rem;
+  padding: 2rem 0;
 
   p {
     margin-bottom: 0;

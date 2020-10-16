@@ -38,19 +38,19 @@ $font-weight-normal: 400;
 $font-weight-medium: 500;
 $font-weight-bold: 700;
 
-$font-size-base: 18px;
-$font-size-h1: 10rem;
-$font-size-h2: 4rem;
-$font-size-h3: 3rem;
-$font-size-h4: 2.3rem;
-$font-size-h5: 2rem;
-$font-size-h6: 1.7rem;
+$font-size-base: 20px;
+$font-size-h1: 3rem;
+$font-size-h2: 2.5rem;
+$font-size-h3: 2rem;
+$font-size-h4: 1.7rem;
+$font-size-h5: 1.5rem;
+$font-size-h6: 1.2rem;
 
 $font-size-h1-large: $font-size-h1;
-$font-size-h1-medium: 8rem;
-$font-size-h1-small: 6rem;
+$font-size-h1-medium: 3.5rem;
+$font-size-h1-small: 3rem;
 $font-size-small: 0.75rem;
-$font-size-permalink: 2.5rem;
+$font-size-permalink: 2rem;
 
 // Colours applied to things!!!
 // -----------------------------------------------------------------------------
@@ -70,7 +70,6 @@ $selection-bg: rgba($c-cadet-grey, 0.6);
 // Body links.
 $c-links-default: $c-sonic-silver;
 $c-links-default-accent: scale-color($c-dark-sky-blue, $lightness: 30%);
-// $c-links-default-accent: $c-dark-sky-blue;
 $c-links-interacting: $c-dark-liver;
 
 // Header links.
@@ -79,12 +78,11 @@ $c-links-header: $c-dark-sky-blue;
 $c-links-main-navigation: scale-color($c-sonic-silver, $lightness: -40%);
 $c-links-main-navigation-accent: scale-color($c-sonic-silver, $lightness: -20%);
 
-// Sidebar links.
-$c-links-navigation: scale-color($c-sonic-silver, $lightness: -20%);
-$c-links-navigation-accent: scale-color($c-platinum, $lightness: +20%);
-
 // Posts.
 $c-post-list-borders: $c-cadet-grey;
+$c-blockquote-background: scale-color($c-body-background, $lightness: +30%);
+$c-blockquote-border: $c-dark-liver;
+$c-code-background: scale-color($c-body-background, $lightness: +30%);
 
 // Miscellaneous.
 $c-image-border: $c-dark-liver;

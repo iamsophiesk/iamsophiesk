@@ -8,14 +8,7 @@
     font-size: $font-size-permalink;
     position: absolute;
     left: -3.5rem;
-    top: 1.3rem;
-    display: none;
-  }
-
-  &:hover {
-    .permalink {
-      display: block;
-    }
+    top: 0.7rem;
   }
 }
 
@@ -25,9 +18,14 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding: 3rem;
+  }
+}
 
-    &:first-of-type {
-      margin-top: 0;
-    }
+.post-metadata {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+
+  p {
+    margin-bottom: 0;
   }
 }

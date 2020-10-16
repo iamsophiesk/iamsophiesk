@@ -1,4 +1,9 @@
 // Base font styles.
+html {
+  // 16px * 125% = 20px base font size.
+  font-size: 120%;
+}
+
 body {
   color: $c-text;
   line-height: 1.5;
@@ -18,7 +23,7 @@ body {
 
 p {
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 
   &:last-of-type {
     margin-bottom: 0;
@@ -30,6 +35,13 @@ h2,
 h3 {
   font-family: $font-family-headers;
   font-weight: $font-weight-medium;
+  margin-bottom: 1rem;
+}
+
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5rem;
 }
 
 h1 {
@@ -64,9 +76,10 @@ h6 {
   font-size: $font-size-h6;
 }
 
-blockquote {
-  background-color: lighten($c-body-background, 5%);
-  border-left: 4px solid darken($c-body-background, 20%);
+blockquote,
+.pullquote {
+  background-color: $c-blockquote-background;
+  border-left: 4px solid $c-blockquote-border;
   color: $gray-darker;
   padding: 1rem 0 1rem 2.5rem;
 
@@ -77,6 +90,7 @@ blockquote {
 
 ul,
 ol {
+  font-size: 100%;
   margin-top: 0;
   list-style-position: outside;
 
@@ -84,7 +98,6 @@ ol {
   ol {
     margin-bottom: 0;
     margin-top: 0;
-    font-size: 100%;
   }
 
   li {

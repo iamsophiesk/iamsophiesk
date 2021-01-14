@@ -18,3 +18,5 @@ Now I mostly do back-end development, but I can (and, to my colleagues' eternal 
 I still enjoy working on single-page websites, or at least websites with a simple template (as opposed to a massive Drupal theme). Not that you could tell, to look at this site :P
 
 On a day-to-day basis I work from home, with one cat on my lap interrupting video calls and the other prowling around looking for more food :)
+
+![Photo of me sitting at my desk with Shiro (my cat) draped over my arm, preventing me from working.](/img/2021/01/profile.jpg)

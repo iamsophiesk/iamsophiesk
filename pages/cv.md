@@ -49,11 +49,16 @@ I have experience with ...
 *   [BIMA 100 (2016)](https://issuu.com/bima-awards/docs/bima_book_100_web/32)
 *   [The Drum 50 under 30 (2015)](https://www.thedrum.com/news/2015/10/23/drums-50-under-30-2015-meet-young-female-trailblazers-taking-over-digital)
 
+### Other
+
+*   Mental Health First Aider - accredited through MHFA England (Oct 2020)
+*   Helped to organise [Drupal Camp Bristol](https://drupalcampbristol.co.uk) in 2017, liaising with sponsors and handling the sponsorship money
+
 ### Work
 
 #### Focusrite-Novation - June 2019 to present
 
-Working as a senior Drupal developer. In my time here, I worked on many of the company's sites and systems, bridging gaps between teams and trying to provide internal value as much as customer-facing value.
+Working as a lead developer. In my time here, I worked on many of the company's sites and systems, bridging gaps between teams and trying to provide internal value as much as customer-facing value.
 
 Their websites include:
 *   [Focusrite](https://focusrite.com/)

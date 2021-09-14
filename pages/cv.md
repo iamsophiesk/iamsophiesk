@@ -8,9 +8,11 @@ templateClass: tmpl-page
 permalink: about/cv/index.html
 ---
 
-I'm Sophie, a 30-year-old, 6'2″ web developer based in Bristol. I moved here from Lincolnshire when I started university and fell head-over-heels for the place. :)
+I'm Sophie, a thirty-something, 6'2″ web developer based in Wiltshire.
 
 A graduate of Web Design from UWE in Bristol, I like drinking coffee, listening to music, baking, drawing, knitting, crochet, roleplay gaming, aikido, cross stitching and fantasy writing. And cats. I really like cats.
+
+I'm here to do good things for good people. Whether that's helping folks directly, reducing my environmental footprint, or sharing resources, I strive to leave things better than I found them. We're all in this together.
 
 ### Contact information
 
@@ -65,9 +67,12 @@ Their websites include:
 *   [Novation](https://novationmusic.com/)
 *   [Customer website](https://customer.focusrite.com)
 
-#### Microserve - May 2014 to May 2019
+I also take part in a number of extra-curricular groups, including:
+*   The Diversity & Inclusion initiative
+*   The accessibility steering group / accessibility D&I initiative
+*   Mental Health First Aider and Wellbeing group
 
-[Website](https://microserve.io/)
+#### Microserve (now Investis Digital) - May 2014 to May 2019
 
 Working as a senior Drupal developer. In my time here, I worked on several large Drupal projects, including:
 *   [WWF-UK support](https://support.wwf.org.uk/)
@@ -123,7 +128,7 @@ Other modules included:
 
 *   Final year: a digital media project (Fontastica), interaction design, consultancy project (working with Bristol Women’s Voice), advanced topics in web development (creating a RESTful API system)
 *   Third year: placement at [Circle Interactive](http://circle-interactive.co.uk/)
-*   Second year: human-computer interaction, information architecture, web design principles
+*   Second year: human-computer interaction, information architecture, web design principleshttps://crontab.guru/#*_9_*_*_*
 *   First year: information design, media technologies (basic knowledge of Flash and ActionScript 3.0 programming)
 
 #### A-levels
@@ -136,17 +141,19 @@ A-levels achieved in English Language (B), Chemistry (C) and General Studies.
 
 ### What I can bring to the table
 
-I've been working with the web since I was 14, and since then I've become a huge believer in making things simple and easy to use, both for the end user and for any developer who will take up work after me. I'm keen to broaden my horizons and learn new things, rather than stagnating in a single place.
+My key drivers are: honesty, openness, and a commitment to betterment.
 
-I work best with people who are driven and details-oriented, and thrive when given a task to do and a deadline. I enjoy taking the time to get stuck into a project, understanding the client's objectives and seeing the project through to the end. I don't like leaving tasks half-finished.
+I've been working with the web since I was 13, and since then I've become a huge believer in making things simple and easy to use, both for the end user and for any developer who will take up work after me. I'm keen to broaden my horizons and learn new things, rather than stagnating in a single place.
+
+I work best with people who are driven and details-oriented, and thrive when given a task to do and a deadline. I enjoy taking the time to get stuck into a project, understanding the objectives and seeing the project through to the end. I don't like leaving tasks half-finished.
 
 I'm a huge believer in laying solid foundations for future work: unless strictly necessary I don't cut corners during development if I can help it. It feels like a disservice to a team of developers to build technical debt in, and I will strive to build things correctly the first time around. If I can't, I do my best to document (through tickets in a backlog, or in a Wiki or equivalent) the things that will need improving. I don't just code for me, I code for a team, and they are at the forefront of my mind, always.
 
-I enjoy learning and sharing new knowledge with others. During my time at Microserve I took on the role of a mentor, helping to teach students and junior devs how to assess priorities, discover solutions, and ultimately complete their own work in a thorough, timely manner. My emphasis is on teaching people to be strong independent learners, with keen attention to detail and a desire to achieve the best.
+I enjoy learning and sharing new knowledge with others. In previous jobs I have taken on the role of a mentor, helping to teach students and junior devs how to assess priorities, discover solutions, and ultimately complete their own work in a thorough, timely manner. My emphasis is on teaching people to be strong independent learners, with keen attention to detail and a desire to achieve the best.
 
 Oh ... and I really like writing documentation! I know that sounds weird, but I think it’s important to make it as easy as possible for others to pick up systems. I get frustrated when documentation isn’t provided, so I do my best to provide it for others.
 
-Recently I've started to focus on health - not only my health but that of my colleagues and friends. Maintaining a healthy mind and body is a really important thing for anyone to do, so I push for all of my colleagues to keep an eye on their work-life balance and offer support wherever I can.
+I love to focus on health - not only my health but that of my colleagues and friends. Maintaining a healthy mind and body is a really important thing for anyone to do, so I push for all of my colleagues to keep an eye on their work-life balance and offer support wherever I can. As a qualified Mental Health First Aider, I try to look out for signs of mental fatigue in my colleagues, offering support and advice wherever I can.
 
 I love receiving feedback on my self and my behaviours, and actively encourage people to let me know if I can improve myself. It's been a hard road of learning that not everyone else feels the same way, but that's one of the many things I'm learning!
 

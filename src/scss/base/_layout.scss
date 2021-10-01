@@ -49,6 +49,10 @@ main {
   }
 }
 
+section {
+  margin: 1rem auto;
+}
+
 footer {
   background: $c-body-footer;
   flex-shrink: 0;

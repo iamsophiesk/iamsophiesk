@@ -1,0 +1,43 @@
+@media print {
+  html {
+    margin: 1em;
+  }
+
+  body {
+    line-height: 1.2;
+  }
+
+  header,
+  .nav-container,
+  footer {
+    display: none;
+  }
+
+  .container {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  main .twelve.columns {
+    padding-top: 0;
+  }
+
+  section {
+    margin: 1rem auto;
+  }
+
+  #main-content a,
+  #main-content a:visited {
+    text-decoration: underline;
+    background: none;
+  }
+
+  #main-content a[href]:after {
+    content: ' [' attr(href) ']';
+    font-size: $font-size-small;
+  }
+
+  abbr:after {
+    content: ' [' attr(title) ']';
+  }
+}

@@ -7,8 +7,12 @@
     <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+
+    <style>
+      {% include "css/main.css" ignore missing %}
+    </style>
+
     <script src="https://kit.fontawesome.com/8baa477886.js" integrity="sha384-0R8uMnSIOPPA/NyiuIGzF0KZK3ufYUg1PTAXKjJwPys6vjFgtPpxoyGIF+ekBFlR" crossorigin="anonymous"></script>
   </head>
   <body{% if page.fileSlug %} class="{{ page.fileSlug }}"{% endif %}>

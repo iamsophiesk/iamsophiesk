@@ -74,6 +74,9 @@
   }
 }
 
+/* Disable this rule as the footer is a separate element, not a descendant of
+   the nav-container. */
+/* stylelint-disable no-descending-specificity */
 footer {
   ul {
     list-style: none;
@@ -105,3 +108,4 @@ footer {
     }
   }
 }
+/* stylelint-enable no-descending-specificity */

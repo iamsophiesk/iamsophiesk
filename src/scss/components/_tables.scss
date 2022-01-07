@@ -1,5 +1,10 @@
 /* Styling for tables. */
 table {
+  th {
+    background-color: $c-table-header;
+    color: $c-table-header-text;
+  }
+
   th,
   td {
     padding: 0.5rem;
@@ -11,11 +16,6 @@ table {
     &:last-child {
       padding-right: 0.5rem;
     }
-  }
-
-  th {
-    background-color: $c-table-header;
-    color: $c-table-header-text;
   }
 
   tr:nth-child(2n+2) {

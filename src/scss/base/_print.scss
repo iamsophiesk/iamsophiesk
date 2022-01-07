@@ -28,12 +28,12 @@
     background: none;
   }
 
-  #main-content a[href]:after {
-    content: ' [' attr(href) ']';
+  #main-content a[href]::after {
+    content: " [" attr(href) "]";
     font-size: $font-size-small;
   }
 
-  abbr:after {
-    content: ' [' attr(title) ']';
+  abbr::after {
+    content: " [" attr(title) "]";
   }
 }

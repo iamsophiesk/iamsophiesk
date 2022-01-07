@@ -1,4 +1,3 @@
-//
 // Global variables file.
 // -----------------------------------------------------------------------------
 
@@ -21,23 +20,26 @@ $white: #fff;
 
 // From coolors.co: https://coolors.co/93b7be-554348-e0e6e6-8c9a9e-747578
 $c-sonic-silver: #747578;
-$c-cadet-grey: #8C9A9E;
+$c-cadet-grey: #8c9a9e;
 $c-dark-liver: #554348;
-$c-dark-sky-blue: #93B7BE;
-$c-platinum: #E0E6E6;
+$c-dark-sky-blue: #93b7be;
+$c-platinum: #e0e6e6;
 
 // Fonts.
 // -----------------------------------------------------------------------------
 
-$font-family-source-sans-pro: 'Source Sans Pro', sans-serif;
-$font-family-patua-one: 'Patua One', serif;
+// Font families.
+$font-family-source-sans-pro: "Source Sans Pro", sans-serif;
+$font-family-patua-one: "Patua One", serif;
 $font-family-base: $font-family-source-sans-pro;
 $font-family-headers: $font-family-patua-one;
 
+// Font weights.
 $font-weight-normal: 400;
 $font-weight-medium: 500;
 $font-weight-bold: 700;
 
+// Font sizes.
 $font-size-base: 20px;
 $font-size-h1: 3rem;
 $font-size-h2: 2.5rem;
@@ -46,6 +48,7 @@ $font-size-h4: 1.7rem;
 $font-size-h5: 1.5rem;
 $font-size-h6: 1.2rem;
 
+// Specific font size overrides.
 $font-size-h1-large: $font-size-h1;
 $font-size-h1-medium: 3.5rem;
 $font-size-h1-small: 3rem;
@@ -58,35 +61,35 @@ $font-size-permalink: 2rem;
 // Main body layout.
 $c-body-background: $c-platinum;
 $c-body-header: $c-dark-liver;
-$c-body-subtitle: mix($c-dark-liver, $c-platinum, $weight: 25%);
-$c-body-nav: mix($c-dark-liver, $c-platinum, $weight: 25%);
+$c-body-subtitle: color.mix($c-dark-liver, $c-platinum, $weight: 25%);
+$c-body-nav: color.mix($c-dark-liver, $c-platinum, $weight: 25%);
 $c-body-footer: $c-platinum;
 $c-contrast: $c-cadet-grey;
 
 // Type.
-$c-text: scale-color($c-dark-liver, $lightness: -10%);
+$c-text: color.scale($c-dark-liver, $lightness: -10%);
 $selection-bg: rgba($c-cadet-grey, 0.6);
 
 // Body links.
 $c-links-default: $c-sonic-silver;
-$c-links-default-accent: scale-color($c-dark-sky-blue, $lightness: 30%);
+$c-links-default-accent: color.scale($c-dark-sky-blue, $lightness: 30%);
 $c-links-interacting: $c-dark-liver;
 
 // Header links.
-$c-skip-link: scale-color($c-platinum, $lightness: +10%);
+$c-skip-link: color.scale($c-platinum, $lightness: + 10%);
 $c-links-header: $c-dark-sky-blue;
-$c-links-main-navigation: scale-color($c-sonic-silver, $lightness: -40%);
-$c-links-main-navigation-accent: scale-color($c-sonic-silver, $lightness: -20%);
+$c-links-main-navigation: color.scale($c-sonic-silver, $lightness: - 40%);
+$c-links-main-navigation-accent: color.scale($c-sonic-silver, $lightness: - 20%);
 
 // Posts.
 $c-post-list-borders: $c-cadet-grey;
-$c-blockquote-background: scale-color($c-body-background, $lightness: +30%);
+$c-blockquote-background: color.scale($c-body-background, $lightness: + 30%);
 $c-blockquote-border: $c-dark-liver;
-$c-code-background: scale-color($c-body-background, $lightness: +30%);
+$c-code-background: color.scale($c-body-background, $lightness: + 30%);
 
 // Miscellaneous.
 $c-image-border: $c-dark-liver;
 $c-table-header: $c-dark-liver;
 $c-table-header-text: $c-platinum;
-$c-table-stripe: scale-color($c-platinum, $lightness: +10%);
+$c-table-stripe: color.scale($c-platinum, $lightness: + 10%);
 $c-hr: $c-dark-liver;

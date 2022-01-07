@@ -1,28 +1,28 @@
 // Base files are imported in a specific order.
 
 // Import skeleton first.
-@import "base/_normalize";
-@import "base/_skeleton";
+@import "base/normalize";
+@import "base/skeleton";
 
 // Add my base styles.
-@import "base/_variables";
-@import "base/_typography";
-@import "base/_links";
-@import "base/_layout";
+@import "base/variables";
+@import "base/typography";
+@import "base/links";
+@import "base/layout";
 
 // Add print styles.
-@import "base/_print";
+@import "base/print";
 
 // Add component styles.
-@import "components/_images";
-@import "components/_navigation";
-@import "components/_posts";
-@import "components/_syntax-highlighting";
-@import "components/_tables";
-@import "components/_tagline";
+@import "components/images";
+@import "components/navigation";
+@import "components/posts";
+@import "components/syntax-highlighting";
+@import "components/tables";
+@import "components/tagline";
 
 // Add overrides for specific skeleton features.
-@import "overrides/_code-blocks";
-@import "overrides/_dark-mode";
-@import "overrides/_muscles";
-@import "overrides/_syntax-highlighting-dark";
+@import "overrides/code-blocks";
+@import "overrides/dark-mode";
+@import "overrides/muscles";
+@import "overrides/syntax-highlighting-dark";

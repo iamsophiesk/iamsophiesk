@@ -1,0 +1,10 @@
+# Ignore base style files, as it was generated externally.
+src/scss/base/_normalize.scss
+src/scss/base/_skeleton.scss
+
+# Ignore the syntax highlighting files, as these were generated externally.
+src/scss/components/_syntax-highlighting.scss
+src/scss/overrides/_syntax-highlighting-dark.scss
+
+# Never did quite finish doing dark mode.
+src/scss/overrides/_dark-mode.scss

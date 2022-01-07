@@ -1,5 +1,5 @@
 /* Additional styling for code blocks. */
-pre[class^='language-']::before {
+pre[class^="language-"]::before {
   color: $c-text;
   content: "Code";
   display: block;
@@ -8,7 +8,8 @@ pre[class^='language-']::before {
   text-transform: uppercase;
 }
 
-$languages-list: 'bash' 'json' 'css' 'scss' 'javascript' 'php' 'mysql' 'sql' 'yaml' 'shell';
+$languages-list: "bash" "json" "css" "scss" "javascript" "php" "mysql" "sql" "yaml" "shell";
+
 @each $language in $languages-list {
   pre.language-#{$language}::before {
     content: "#{$language}";
@@ -23,12 +24,7 @@ pre[class*="language-"] {
   border: 0;
 }
 
-pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
-code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
-  background: $selection-bg;
-}
-
-pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
-code[class*="language-"]::selection, code[class*="language-"] ::selection {
+pre[class*="language-"]::selection,
+code[class*="language-"]::selection {
   background: $selection-bg;
 }

@@ -39,6 +39,33 @@ ul {
   padding-left: revert;
 }
 
+details {
+  border: {
+    color: $c-details-border;
+    width: 1px;
+    radius: 0.5rem;
+    style: solid;
+  }
+
+  display: revert;
+  margin: 1rem auto;
+  padding: 0.5rem;
+
+  > * {
+    padding-top: 0.5rem;
+  }
+
+  summary {
+    background-color: $c-details-summary-background;
+    display: revert;
+    padding-top: 0;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
 .visually-hidden {
   /* stylelint-disable-next-line declaration-no-important */
   position: absolute !important;

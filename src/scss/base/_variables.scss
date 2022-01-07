@@ -1,6 +1,8 @@
 // Global variables file.
 // -----------------------------------------------------------------------------
 
+@use "sass:color";
+
 // Greyscale.
 // -----------------------------------------------------------------------------
 
@@ -93,3 +95,5 @@ $c-table-header: $c-dark-liver;
 $c-table-header-text: $c-platinum;
 $c-table-stripe: color.scale($c-platinum, $lightness: + 10%);
 $c-hr: $c-dark-liver;
+$c-details-border: $c-dark-liver;
+$c-details-summary-background: color.scale($c-platinum, $lightness: + 10%);

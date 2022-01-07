@@ -60,7 +60,11 @@ permalink: about/cv/index.html
 
   ### Work
 
-  #### Focusrite-Novation - June 2019 to present
+  #### Access - January 2021 to present
+
+  Working as a senior developer, I'll be looking after various Drupal projects, mentoring junior developers, and helping to push the company forward. I'll update this page a bit when I've been here a little longer :)
+
+  #### Focusrite-Novation - June 2019 to December 2021
 
   Working as a lead developer. In my time here, I worked on many of the company's sites and systems, bridging gaps between teams and trying to provide internal value as much as customer-facing value.
 
@@ -83,24 +87,27 @@ permalink: about/cv/index.html
   *   [YHA Groups](https://groups.yha.org.uk/)
   *   [CarePlanner](http://care-planner.co.uk)
 
-  My work included:
+  <details>
+    <summary>Summary of the work I did at Microserve</summary>
 
-  *   Headless Drupal work, using one Drupal site for content and a separate website to serve the content and images
-  *   Implementation of checkouts using [Drupal Commerce](https://drupal.org/project/commerce):
-      *    Integration with external systems for stock management
-      *    Creation of custom products on the fly, based on user-provided criteria
-      *    Single-page checkout flows
-      *    Integration with external CRMs to store customer and order data
-      *    Fulfilment using the Commerce Shipping module, modifiying it to work per-item in cart
-      *    Complex Ajax functionality, requesting live data from external systems and updating cart data based on user criteria
-  *   Complex front-end work, restructuring themes and templates, working with ES6 JavaScript
-  *   Implementation of a continuous deployment workflow, maintaining a Jenkins server and scripts to run automated deployments
-  *   Migration from Bitbucket to GitLab for all projects, including associated training of other staff members and integration with the CD workflow
-  *   Pioneering the use of Docker, creating easy-start scripts in Bash that allowed any developer to pick up the work, and then helping to migrate to Docksal
-  *   Using Scrum and Agile working methods, building sprints and working on regular releases for clients
-  *   Introducing `#thanks` and `#animals` channels to the company Slack and starting regular brown-bag lunch sessions for people to catch up and relax, to help boost morale
-  *   Advocating for a consistent project experience, unifying and standardising the company's toolset, greatly reducing the time-to-developing for developers joining a project
-  *   Setting up remote servers and providing documentation for their handover
+*   Headless Drupal work, using one Drupal site for content and a separate website to serve the content and images
+*   Implementation of checkouts using [Drupal Commerce](https://drupal.org/project/commerce):
+    *    Integration with external systems for stock management
+    *    Creation of custom products on the fly, based on user-provided criteria
+    *    Single-page checkout flows
+    *    Integration with external CRMs to store customer and order data
+    *    Fulfilment using the Commerce Shipping module, modifiying it to work per-item in cart
+    *    Complex Ajax functionality, requesting live data from external systems and updating cart data based on user criteria
+*   Complex front-end work, restructuring themes and templates, working with ES6 JavaScript
+*   Implementation of a continuous deployment workflow, maintaining a Jenkins server and scripts to run automated deployments
+*   Migration from Bitbucket to GitLab for all projects, including associated training of other staff members and integration with the CD workflow
+*   Pioneering the use of Docker, creating easy-start scripts in Bash that allowed any developer to pick up the work, and then helping to migrate to Docksal
+*   Using Scrum and Agile working methods, building sprints and working on regular releases for clients
+*   Introducing `#thanks` and `#animals` channels to the company Slack and starting regular brown-bag lunch sessions for people to catch up and relax, to help boost morale
+*   Advocating for a consistent project experience, unifying and standardising the company's toolset, greatly reducing the time-to-developing for developers joining a project
+*   Setting up remote servers and providing documentation for their handover
+
+  </details>
 
   #### Circle Interactive - July 2011 to May 2014
 
@@ -108,14 +115,17 @@ permalink: about/cv/index.html
 
   I started at Circle for my placement year between July 2011 and September 2012. During my final year of uni (Sept 2012 - May 2013), I worked at Circle while studying, during holidays and once every other week when my timetable allowed. I was hired straight out of university, starting full time as soon as my exams finished at the end of May 2013.
 
-  My work included:
+  <details>
+    <summary>Summary of the work I did at Circle</summary>
 
-  *   Creating themes for Drupal 6 and 7 sites, both from provided PSDs and based on client suggestions of “liked sites”
-  *   Working directly with clients through our support system and also through direct contact on email and telephone
-  *   Creating custom modules, including: a rewritten support system for our intranet; dynamic data retrieval from a client’s server to show course schedules; working with geolocation on an Apache server; updating a cookie control module to work with Drupal 5, 6 and 7 for distribution to our clients; and updating a half-written module to perform a proximity search on CiviCRM data
-  *   Writing documentation for clients and colleagues on how to use existing Drupal modules/CiviCRM extensions, custom modules created for a purpose, and documentation for theming
-  *   Using existing modules to create complex functionality on sites, particularly using views, content access and internationalisation/translation
-  *   Estimating work needed and time required for projects, and advising on what technologies could be used to solve problems
+*   Creating themes for Drupal 6 and 7 sites, both from provided PSDs and based on client suggestions of “liked sites”
+*   Working directly with clients through our support system and also through direct contact on email and telephone
+*   Creating custom modules, including: a rewritten support system for our intranet; dynamic data retrieval from a client’s server to show course schedules; working with geolocation on an Apache server; updating a cookie control module to work with Drupal 5, 6 and 7 for distribution to our clients; and updating a half-written module to perform a proximity search on CiviCRM data
+*   Writing documentation for clients and colleagues on how to use existing Drupal modules/CiviCRM extensions, custom modules created for a purpose, and documentation for theming
+*   Using existing modules to create complex functionality on sites, particularly using views, content access and internationalisation/translation
+*   Estimating work needed and time required for projects, and advising on what technologies could be used to solve problems
+
+  </details>
 
 </section>
 

@@ -57,6 +57,15 @@ $font-size-h1-small: 3rem;
 $font-size-small: 0.75rem;
 $font-size-permalink: 2rem;
 
+// Spacing variables.
+// -----------------------------------------------------------------------------
+
+$space: 1rem;
+$space-quarter: calc($space / 4);
+$space-half: calc($space / 2);
+$space-double: calc($space * 2);
+$space-triple: calc($space * 3);
+
 // Colours applied to things!!!
 // -----------------------------------------------------------------------------
 
@@ -97,3 +106,4 @@ $c-table-stripe: color.scale($c-platinum, $lightness: + 10%);
 $c-hr: $c-dark-liver;
 $c-details-border: $c-dark-liver;
 $c-details-summary-background: color.scale($c-platinum, $lightness: + 10%);
+$c-welcome-message-background: color.scale($c-platinum, $lightness: + 30%);

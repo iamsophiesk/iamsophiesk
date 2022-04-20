@@ -1,10 +1,19 @@
 ---
-layout: layouts/home.njk
+layout: layouts/base.njk
 title: Recent posts
 permalink: index.html
 ---
 
-<p class="pullquote">Welcome to the site of Sophie S-K, a web developer based in Wiltshire, UK.</p>
+<div class="homepage">
+  <div class="welcome-message">
+    <h2>Hi, I'm Sophie.</h2>
+    <p>I'm a web developer based in Wiltshire, UK. This is my not-very-well-updated corner of the internet.</p>
+  </div>
 
-{% set postslist = collections.posts | head(-5) %}
-{% include "layouts/posts/post-list.njk" %}
+  <div class="post-list post-list__titles">
+    <h2>Recent posts</h2>
+
+    {% set postslist = collections.posts | head(-5) %}
+    {% include "layouts/posts/post-titles.njk" %}
+  </div>
+</div>

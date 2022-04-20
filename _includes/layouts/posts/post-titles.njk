@@ -1,0 +1,8 @@
+<ul class="post-titles">
+  {%- for post in postslist | reverse -%}
+    <li>
+      <a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a> <br />
+      <span class="timestamp">Posted <time class="post-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></span>
+    </li>
+  {%- endfor -%}
+</ul>

@@ -2,7 +2,7 @@
   <div class="post-tags">
     <strong>Tagged:</strong>
     {% for tag in posttags %}
-      {%- if tag != "posts" -%}
+      {%- if tag != "posts" and tag != "post" -%}
         {% set tagUrl %}/tags/{{ tag }}/{% endset %}
         <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
       {%- endif -%}

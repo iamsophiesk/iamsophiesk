@@ -1,7 +1,6 @@
 {
   "tags": [
-    "post",
-    "posts"
+    "post"
   ],
   "permalink": "posts/{{ date | date: '%Y/%m' }}/{{ title | slug }}/index.html"
 }

@@ -10,7 +10,7 @@ permalink: about/cv/index.html
 
 <section>
 
-  I'm Sophie, a thirty-something, 6'2″ web developer based in Wiltshire.
+  I'm Sophie, a thirty-something, 6'2″ web developer with ADHD based in Wiltshire.
 
   A graduate of Web Design from UWE in Bristol, I like drinking coffee, listening to music, baking, drawing, knitting, crochet, roleplay gaming, aikido, cross stitching and fantasy writing. And cats. I really like cats.
 
@@ -30,29 +30,34 @@ permalink: about/cv/index.html
 
   ### General overview
 
+  I am a full-stack, Drupal-centric developer. I've been working as a tech lead for a number of years, spearheading large development projects as well as managing the ongoing maintenance of projects for a range of clients.
+
   I have experience with ...
 
-  *   Mentorship of developers in a team environment
+  *   Mentorship of developers at all levels in a team environment
   *   Leading development projects and spearheading technical and architectural decisions across teams and companies
   *   Offering technical advice to other teams and agencies, acting as a consultant
   *   Assisting project and technical owners to make project- and company-level decisions
-  *   Contribution to open-source software initiatives (Drupal core and contrib modules, Magento)
-  *   Maintenance of my own open-source modules on Drupal.org:
+  *   Contribution to open-source software initiatives (Drupal core and contrib modules), including maintenance of my own open-source modules on Drupal.org:
       *   [Simple Integrations](https://drupal.org/project/simple_integrations)
       *   [Message Banner](https://www.drupal.org/project/message_banner)
       *   [Simple Iubenda](https://www.drupal.org/project/iubenda)
-      *   [CKEditor Spotify (sandbox)](https://www.drupal.org/sandbox/sophiesk/3091513)
-  *   PHP and MySQL, mainly through Drupal but with good knowledge of Symfony and related technologies
-  *   Drupal 7 and 8, writing custom modules for each, maintaining other peoples' codebases
-  *   JavaScript and jQuery/Ajax, used mainly within the Drupal framework
   *   Systems administration, including set up of sites on remote servers, configuring installations, and deployments to multiple environments
-  *   Git-based workflows and technologies, using Gitlab, Github and Bitbucket, with a strong emphasis on collaborative work and peer review
-  *   Using front-end build tools including Gulp, PatternLab and npm, both picking up projects and adding build tools to existing projects
+  *   Continuous integration, mainly with TravisCI and Github Actions, and implementing scalable, reusable workflows across projectcs, clients and tech stacks
   *   Writing project documentation for a range of audiences, including clients, test engineers, and other developers
   *   Working to coding standards and receiving/performing code reviews, and implementing code-sniffing tools
-  *   Writing PHPUnit tests within the Drupal framework
   *   Web accessibility standards and making websites compliant with WCAG guidelines
   *   Working with hosting platforms such as Acquia, DigitalOcean, Pantheon and completely custom server setups
+
+  Specific technologies I have experience with include:
+
+  *   Drupal 7, 8 and 9, writing custom modules for each, maintaining other peoples' codebases
+  *   PHP and MySQL, mainly through Drupal but with good knowledge of Symfony and related technologies
+  *   JavaScript development, used mainly within the Drupal framework
+  *   Acquia and Pantheon pipelines and workstreams
+  *   Writing PHPUnit tests within the Drupal framework
+  *   Git-based workflows and technologies, using Gitlab, Github and Bitbucket, with a strong emphasis on collaborative work and peer review
+  *   Using front-end build tools including Gulp, PatternLab and npm, both picking up projects and adding build tools to existing projects
 
 </section>
 
@@ -62,7 +67,7 @@ permalink: about/cv/index.html
 
   #### Access - January 2021 to present
 
-  Working as a senior developer, I'll be looking after various Drupal projects, mentoring junior developers, and helping to push the company forward. I'll update this page a bit when I've been here a little longer :)
+  Working as a tech lead, I'll be looking after various Drupal projects, mentoring junior developers, and helping to push the company forward. I'll update this page a bit when I've been here a little longer :)
 
   #### Focusrite-Novation - June 2019 to December 2021
 
@@ -90,22 +95,22 @@ permalink: about/cv/index.html
   <details>
     <summary>Summary of the work I did at Microserve</summary>
 
-*   Headless Drupal work, using one Drupal site for content and a separate website to serve the content and images
-*   Implementation of checkouts using [Drupal Commerce](https://drupal.org/project/commerce):
-    *    Integration with external systems for stock management
-    *    Creation of custom products on the fly, based on user-provided criteria
-    *    Single-page checkout flows
-    *    Integration with external CRMs to store customer and order data
-    *    Fulfilment using the Commerce Shipping module, modifiying it to work per-item in cart
-    *    Complex Ajax functionality, requesting live data from external systems and updating cart data based on user criteria
-*   Complex front-end work, restructuring themes and templates, working with ES6 JavaScript
-*   Implementation of a continuous deployment workflow, maintaining a Jenkins server and scripts to run automated deployments
-*   Migration from Bitbucket to GitLab for all projects, including associated training of other staff members and integration with the CD workflow
-*   Pioneering the use of Docker, creating easy-start scripts in Bash that allowed any developer to pick up the work, and then helping to migrate to Docksal
-*   Using Scrum and Agile working methods, building sprints and working on regular releases for clients
-*   Introducing `#thanks` and `#animals` channels to the company Slack and starting regular brown-bag lunch sessions for people to catch up and relax, to help boost morale
-*   Advocating for a consistent project experience, unifying and standardising the company's toolset, greatly reducing the time-to-developing for developers joining a project
-*   Setting up remote servers and providing documentation for their handover
+    *   Headless Drupal work, using one Drupal site for content and a separate website to serve the content and images
+    *   Implementation of checkouts using [Drupal Commerce](https://drupal.org/project/commerce):
+        *    Integration with external systems for stock management
+        *    Creation of custom products on the fly, based on user-provided criteria
+        *    Single-page checkout flows
+        *    Integration with external CRMs to store customer and order data
+        *    Fulfilment using the Commerce Shipping module, modifiying it to work per-item in cart
+        *    Complex Ajax functionality, requesting live data from external systems and updating cart data based on user criteria
+    *   Complex front-end work, restructuring themes and templates, working with ES6 JavaScript
+    *   Implementation of a continuous deployment workflow, maintaining a Jenkins server and scripts to run automated deployments
+    *   Migration from Bitbucket to GitLab for all projects, including associated training of other staff members and integration with the CD workflow
+    *   Pioneering the use of Docker, creating easy-start scripts in Bash that allowed any developer to pick up the work, and then helping to migrate to Docksal
+    *   Using Scrum and Agile working methods, building sprints and working on regular releases for clients
+    *   Introducing `#thanks` and `#animals` channels to the company Slack and starting regular brown-bag lunch sessions for people to catch up and relax, to help boost morale
+    *   Advocating for a consistent project experience, unifying and standardising the company's toolset, greatly reducing the time-to-developing for developers joining a project
+    *   Setting up remote servers and providing documentation for their handover
 
   </details>
 
@@ -118,12 +123,12 @@ permalink: about/cv/index.html
   <details>
     <summary>Summary of the work I did at Circle</summary>
 
-*   Creating themes for Drupal 6 and 7 sites, both from provided PSDs and based on client suggestions of “liked sites”
-*   Working directly with clients through our support system and also through direct contact on email and telephone
-*   Creating custom modules, including: a rewritten support system for our intranet; dynamic data retrieval from a client’s server to show course schedules; working with geolocation on an Apache server; updating a cookie control module to work with Drupal 5, 6 and 7 for distribution to our clients; and updating a half-written module to perform a proximity search on CiviCRM data
-*   Writing documentation for clients and colleagues on how to use existing Drupal modules/CiviCRM extensions, custom modules created for a purpose, and documentation for theming
-*   Using existing modules to create complex functionality on sites, particularly using views, content access and internationalisation/translation
-*   Estimating work needed and time required for projects, and advising on what technologies could be used to solve problems
+    *   Creating themes for Drupal 6 and 7 sites, both from provided PSDs and based on client suggestions of “liked sites”
+    *   Working directly with clients through our support system and also through direct contact on email and telephone
+    *   Creating custom modules, including: a rewritten support system for our intranet; dynamic data retrieval from a client’s server to show course schedules; working with geolocation on an Apache server; updating a cookie control module to work with Drupal 5, 6 and 7 for distribution to our clients; and updating a half-written module to perform a proximity search on CiviCRM data
+    *   Writing documentation for clients and colleagues on how to use existing Drupal modules/CiviCRM extensions, custom modules created for a purpose, and documentation for theming
+    *   Using existing modules to create complex functionality on sites, particularly using views, content access and internationalisation/translation
+    *   Estimating work needed and time required for projects, and advising on what technologies could be used to solve problems
 
   </details>
 
@@ -147,14 +152,6 @@ permalink: about/cv/index.html
   *   Third year: placement at [Circle Interactive](http://circle-interactive.co.uk/)
   *   Second year: human-computer interaction, information architecture, web design principles
   *   First year: information design, media technologies (basic knowledge of Flash and ActionScript 3.0 programming)
-
-  #### A-levels
-
-  Attended Sleaford Joint Sixth Form in Lincolnshire from September 2007 to July 2009. Left with three A-levels and a BTEC Certificate in Art & Design (grade MM).
-
-  BTEC units included: web design (in final major project, self-created brief), photography, fashion illustration, textile work, art history, logo/brand design, typography.
-
-  A-levels achieved in English Language (B), Chemistry (C) and General Studies.
 
 </section>
 

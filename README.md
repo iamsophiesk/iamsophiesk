@@ -1,7 +1,7 @@
 # iamsophie.sk
 
-This is my personal website! It's built using [Netlify][1] and [11ty][2]. The basic blog framework is from the [11ty base blog][3].
+I'm Sophie S-K, a thirty-something, 6'2″ web developer based in Wiltshire.
 
-[1]: https://www.netlify.com/
-[2]: https://www.11ty.io/
-[3]: https://github.com/11ty/eleventy-base-blog
+A graduate of Web Design from UWE in Bristol, I like drinking coffee, listening to music, baking, drawing, knitting, crochet, roleplay gaming, aikido, cross stitching and fantasy writing. And cats. I really like cats.
+
+I'm here to do good things for good people. Whether that's helping folks directly, reducing my environmental footprint, or sharing resources, I strive to leave things better than I found them. We're all in this together.

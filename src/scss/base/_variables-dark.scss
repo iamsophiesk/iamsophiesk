@@ -1,0 +1,51 @@
+// Dark mode variables.
+// -----------------------------------------------------------------------------
+
+@use "sass:color";
+
+$c-dark-sky-blue-dark: #444e53;
+$c-dark-liver-dark: #232123;
+$c-platinum-dark: #62666a;
+$c-cadet-grey-dark: #414345;
+$c-sonic-silver-dark: #343535;
+
+// Main body layout.
+$dc-body-background: $c-cadet-grey-dark;
+$dc-body-header: $c-dark-sky-blue-dark;
+$dc-body-nav: color.mix($c-cadet-grey-dark, $c-dark-sky-blue-dark, $weight: 25%);
+$dc-contrast: $c-cadet-grey;
+
+// Reusable variables.
+$dc-borders: $c-platinum;
+$dc-backgrounds: color.scale($dc-body-background, $lightness: + 30%);
+
+// Type.
+$dc-text: $c-platinum;
+
+// Body links.
+$dc-links-default: $c-platinum;
+$dc-links-default-accent: color.scale($c-cadet-grey, $lightness: - 25%);
+$dc-links-interacting: $c-cadet-grey-dark;
+
+// Header links.
+$dc-skip-link: color.scale($c-platinum, $lightness: + 10%);
+$dc-links-header: $c-dark-sky-blue;
+$dc-links-main-navigation: $c-dark-sky-blue;
+$dc-links-main-navigation-accent: color.scale($c-dark-sky-blue, $lightness: - 20%);
+
+// Posts.
+$dc-post-list-borders: $dc-borders;
+$dc-blockquote-background: $dc-backgrounds;
+$dc-blockquote-border: $dc-borders;
+$dc-code-background: $dc-backgrounds;
+
+// Miscellaneous.
+$dc-image-border: $dc-borders;
+$dc-table-header: $c-sonic-silver-dark;
+$dc-table-header-text: $c-platinum;
+$dc-table-border: $dc-borders;
+$dc-table-stripe: color.scale($c-cadet-grey-dark, $lightness: + 10%);
+$dc-hr: $dc-borders;
+$dc-details-border: $dc-borders;
+$dc-details-summary-background: color.scale($c-cadet-grey-dark, $lightness: + 10%);
+$dc-welcome-message-background: color.scale($c-platinum, $lightness: + 30%);

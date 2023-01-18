@@ -55,13 +55,20 @@ details {
     padding-top: 0.5rem;
   }
 
+  > :last-child {
+    margin-bottom: 0.5rem;
+  }
+
   summary {
-    background-color: $c-details-summary-background;
+    background-color: transparent;
     display: revert;
     padding-top: 0;
+    text-decoration: underline;
+    text-underline-offset: 3px;
 
     &:hover {
       cursor: pointer;
+      text-decoration: none;
     }
   }
 }

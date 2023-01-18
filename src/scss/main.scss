@@ -6,6 +6,7 @@
 
 // Add my base styles.
 @import "base/variables";
+@import "base/variables-dark";
 @import "base/typography";
 @import "base/links";
 @import "base/layout";
@@ -24,6 +25,6 @@
 
 // Add overrides for specific skeleton features.
 @import "overrides/code-blocks";
-@import "overrides/dark-mode";
 @import "overrides/muscles";
+@import "overrides/dark-mode";
 @import "overrides/syntax-highlighting-dark";

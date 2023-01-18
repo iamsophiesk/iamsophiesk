@@ -146,3 +146,21 @@ Three or more...
 ---
 
 Hyphens makes a horizontal rule.
+
+## Details and summary
+
+<details>
+  <summary>A collapsible details element</summary>
+
+  ... can be used to hide extra information. And any kind of markdown can be used within, too, like ...
+
+  ---
+
+  a horizontal rule! Or... a table!
+
+  | Tables        | Are           | Cool |
+  | ------------- |:-------------:| -----:|
+  | col 3 is      | right-aligned | $1600 |
+  | col 2 is      | centered      |   $12 |
+  | zebra stripes | are neat      |    $1 |
+</details>

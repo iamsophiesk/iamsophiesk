@@ -8,7 +8,7 @@ pre[class^="language-"]::before {
   text-transform: uppercase;
 }
 
-$languages-list: "bash" "json" "css" "scss" "javascript" "php" "mysql" "sql" "yaml" "shell";
+$languages-list: "bash" "json" "css" "scss" "sass" "javascript" "php" "mysql" "sql" "yaml" "shell" "xml";
 
 @each $language in $languages-list {
   pre.language-#{$language}::before {
@@ -22,6 +22,7 @@ code[class*="language-"],
 pre[class*="language-"] {
   background: $c-code-background;
   border: 0;
+  border-radius: 3px;
 }
 
 pre[class*="language-"]::selection,

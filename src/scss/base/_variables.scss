@@ -21,11 +21,11 @@ $white: #fff;
 // -----------------------------------------------------------------------------
 
 // From coolors.co: https://coolors.co/93b7be-554348-e0e6e6-8c9a9e-747578
-$c-sonic-silver: #747578;
-$c-cadet-grey: #8c9a9e;
-$c-dark-liver: #554348;
 $c-dark-sky-blue: #93b7be;
+$c-dark-liver: #554348;
 $c-platinum: #e0e6e6;
+$c-cadet-grey: #8c9a9e;
+$c-sonic-silver: #747578;
 
 // Fonts.
 // -----------------------------------------------------------------------------
@@ -46,9 +46,9 @@ $font-size-base: 20px;
 $font-size-h1: 3rem;
 $font-size-h2: 2.5rem;
 $font-size-h3: 2rem;
-$font-size-h4: 1.7rem;
-$font-size-h5: 1.5rem;
-$font-size-h6: 1.2rem;
+$font-size-h4: 1.5rem;
+$font-size-h5: 1.3rem;
+$font-size-h6: 1.1rem;
 
 // Specific font size overrides.
 $font-size-h1-large: $font-size-h1;
@@ -72,10 +72,12 @@ $space-triple: calc($space * 3);
 // Main body layout.
 $c-body-background: $c-platinum;
 $c-body-header: $c-dark-liver;
-$c-body-subtitle: color.mix($c-dark-liver, $c-platinum, $weight: 25%);
 $c-body-nav: color.mix($c-dark-liver, $c-platinum, $weight: 25%);
-$c-body-footer: $c-platinum;
 $c-contrast: $c-cadet-grey;
+
+// Reusable variables.
+$c-borders: $c-dark-liver;
+$c-backgrounds: color.scale($c-body-background, $lightness: + 30%);
 
 // Type.
 $c-text: color.scale($c-dark-liver, $lightness: -10%);
@@ -93,17 +95,16 @@ $c-links-main-navigation: color.scale($c-sonic-silver, $lightness: - 40%);
 $c-links-main-navigation-accent: color.scale($c-sonic-silver, $lightness: - 20%);
 
 // Posts.
-$c-post-list-borders: $c-cadet-grey;
-$c-blockquote-background: color.scale($c-body-background, $lightness: + 30%);
-$c-blockquote-border: $c-dark-liver;
-$c-code-background: color.scale($c-body-background, $lightness: + 30%);
+$c-post-list-borders: $c-borders;
+$c-blockquote-background: $c-backgrounds;
+$c-blockquote-border: $c-borders;
+$c-code-background: $c-backgrounds;
 
 // Miscellaneous.
-$c-image-border: $c-dark-liver;
+$c-image-border: $c-borders;
 $c-table-header: $c-dark-liver;
 $c-table-header-text: $c-platinum;
 $c-table-stripe: color.scale($c-platinum, $lightness: + 10%);
-$c-hr: $c-dark-liver;
-$c-details-border: $c-dark-liver;
-$c-details-summary-background: color.scale($c-platinum, $lightness: + 10%);
-$c-welcome-message-background: color.scale($c-platinum, $lightness: + 30%);
+$c-hr: $c-borders;
+$c-details-border: $c-borders;
+$c-welcome-message-background: $c-backgrounds;

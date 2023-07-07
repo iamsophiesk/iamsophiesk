@@ -159,8 +159,9 @@ permalink: about/cv/index.html
 
   ### Accolades
 
-  *   [Drupal 7 Grand Master (2015) & Drupal 8 Grand Master (2018)](https://certification.acquia.com/user/957758)
-      *   First female to earn each of these certificates in the UK
+  *   Acquia Triple Certified Developer
+      *   [Drupal 7 - August 2015/Drupal 8 - April 2018](https://certification.acquia.com/user/2187)
+      *   [Drupal 10 - June 2023](https://certification.acquia.com/user/20581)
   *   [BIMA 100 (2016)](https://issuu.com/bima-awards/docs/bima_book_100_web/32)
   *   [The Drum 50 under 30 (2015)](https://www.thedrum.com/news/2015/10/23/drums-50-under-30-2015-meet-young-female-trailblazers-taking-over-digital)
 

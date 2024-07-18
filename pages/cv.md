@@ -42,12 +42,12 @@ permalink: about/cv/index.html
       *   [Simple Integrations](https://drupal.org/project/simple_integrations)
       *   [Message Banner](https://www.drupal.org/project/message_banner)
       *   [Simple Iubenda](https://www.drupal.org/project/iubenda)
-  *   Systems administration, including set up of sites on remote servers, configuring installations, and deployments to multiple environments
-  *   Continuous integration, mainly with TravisCI and Github Actions, and implementing scalable, reusable workflows across projectcs, clients and tech stacks
+  *   Systems administration, including set up of sites on remote servers and hosting platforms, configuring installations, and deployments to multiple environments
+  *   Continuous integration, mainly with Github Actions, and implementing scalable, reusable workflows across projects, clients and tech stacks
   *   Writing project documentation for a range of audiences, including clients, test engineers, and other developers
   *   Working to coding standards and receiving/performing code reviews, and implementing code-sniffing tools
   *   Web accessibility standards and making websites compliant with WCAG guidelines
-  *   Working with hosting platforms such as Acquia, DigitalOcean, Pantheon and completely custom server setups
+  *   Working with hosting platforms such as Acquia, Platform.sh, Pantheon, AWS and completely custom server setups
 
   Specific technologies I have experience with include:
 

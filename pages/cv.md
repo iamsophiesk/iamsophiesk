@@ -51,7 +51,7 @@ permalink: about/cv/index.html
 
   Specific technologies I have experience with include:
 
-  *   Drupal 7, 8 and 9, writing custom modules for each, maintaining other peoples' codebases
+  *   Drupal 6-10, writing custom modules for each, maintaining other peoples' codebases
   *   PHP and MySQL, mainly through Drupal but with good knowledge of Symfony and related technologies
   *   JavaScript development, used mainly within the Drupal framework
   *   Acquia and Pantheon pipelines and workstreams

@@ -11,8 +11,6 @@ The colour scheme came from [coolors.co][4], aren't they the prettiest! I've use
 
 I track basic analytics using [Cabin][6], a privacy-first, carbon-aware web analytics service. It doesn't store any cookies on your computer, they don't share with ad networks, and generally seem like nice folks.
 
-I have also read so many tutorials. You have no idea. If I could link to them all, I would.
-
 [1]: https://www.netlify.com/
 [2]: https://www.11ty.io/
 [3]: https://github.com/11ty/eleventy-base-blog

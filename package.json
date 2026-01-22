@@ -6,7 +6,7 @@
     "build": "npx eleventy",
     "lint": "npx stylelint '**/*.scss'",
     "sass": "sass --style=compressed src/scss/main.scss _includes/css/main.css",
-    "watch:eleventy": "eleventy --serve",
+    "watch:eleventy": "npx @11ty/eleventy --serve --port=8800",
     "watch:sass": "npm run sass -- --watch",
     "debug": "DEBUG=* npx eleventy",
     "start": "npm-run-all sass lint --parallel watch:*"

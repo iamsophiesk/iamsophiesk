@@ -20,13 +20,22 @@
     margin-bottom: 2rem;
     padding: 3rem;
   }
-}
 
-.post-metadata {
-  font-size: 0.8rem;
-  margin-bottom: 1rem;
+  .post-header h3 {
+    margin-top: 0;
+  }
 
-  p {
+  .post-metadata {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  .post-content p {
     margin-bottom: 0;
   }
 }
+

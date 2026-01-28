@@ -14,6 +14,8 @@ permalink: about/cv/index.html
 
   A graduate of Web Design from UWE in Bristol, I like drinking coffee, listening to music, art, fantasy writing, roleplay gaming, and knitting. Amongst other things. _Mostly_ in that order. ... and cats. I _really_ like cats.
 
+  I am process-oriented and love nothing more than ensuring that there is a rigorous process in place. A great communicator, I am excellent at communicating technical problems and solutions to wide audiences of varying skill levels. I thrive on consistency and predictability, and love to get my teeth stuck into complex development issues, whether that's converting client requirements into tasks for others to perform or doing the development work myself. I pride myself on being able to turn my hand to nearly any issue or task, even if it's outside of my comfort zone.
+
   My aim is to leave a positive legacy. Whether that's by mentoring people, improving code, sharing ideas, supporting folks, documenting and formalising processes, or advocating for changes that will benefit the whole team, I strive to leave things better than how I found them. We're all in this together.
 
 </section>
@@ -32,21 +34,21 @@ permalink: about/cv/index.html
 
   I am a full-stack, Drupal-centric developer. I've been working as a tech lead for a number of years, spearheading large development projects as well as managing the ongoing maintenance of projects for a range of clients. I have experience with...
 
-  *   Direct mentorship of developers at all levels in a team environment, plus line management of developers, supporting with their personal and career growth.
   *   Leading complex development projects, and supporting with technical and architectural decision-making.
   *   Building backlogs for retainers and projects; working directly with clients, product owners and the development team to ensure tickets are ready for work and of the highest quality.
-  *   Presenting ideas to people of all skills levels, with a focus on explaining complex technical work in simple terms.
+  *   Web accessibility standards and making websites compliant with WCAG guidelines; advocating for and ensuring that accessibility requirements to be considered from inception of new features.
+  *   Systems administration, including the set up of sites on remote servers and hosting platforms, configuring installations, and deployments to multiple environments.
+  *   Working to coding standards, receiving/performing code reviews, and enforcing standards across teams, through code review and the use of automated tools.
+  *   Continuous integration, mainly with Github Actions, and implementing scalable, reusable workflows that can be used across projects, clients and tech stacks.
+  *   Working with hosting platforms such as Acquia, Upsun/Platform.sh, Pantheon, AWS, and completely custom server setups.
+  *   Direct mentorship of developers at all levels in a team environment, plus line management of developers, supporting with their personal and career growth.
   *   Feeding into company-level decisions by supporting and collaborating technical and delivery leadership directly.
+  *   Presenting ideas to people of all skills levels, with a focus on explaining complex technical work in simple terms.
+  *   Writing project documentation for a range of audiences, including clients, project managers and owners, test engineers, and other developers.
   *   Contribution to open-source software initiatives (Drupal core and contrib modules), including maintenance of my own open-source modules on Drupal.org:
       *   [Simple Integrations](https://drupal.org/project/simple_integrations)
       *   [Message Banner](https://www.drupal.org/project/message_banner)
       *   [Simple Iubenda](https://www.drupal.org/project/iubenda)
-  *   Systems administration, including the set up of sites on remote servers and hosting platforms, configuring installations, and deployments to multiple environments.
-  *   Continuous integration, mainly with Github Actions, and implementing scalable, reusable workflows that can be used across projects, clients and tech stacks.
-  *   Writing project documentation for a range of audiences, including clients, project managers and owners, test engineers, and other developers.
-  *   Working to coding standards, receiving/performing code reviews, and enforcing standards across teams, through code review and the use of automated tools.
-  *   Web accessibility standards and making websites compliant with WCAG guidelines; advocating for and ensuring that accessibility requirements to be considered from inception of new features.
-  *   Working with hosting platforms such as Acquia, Upsun/Platform.sh, Pantheon, AWS, and completely custom server setups.
 
   Specific technologies I have experience with include:
 
@@ -67,7 +69,29 @@ permalink: about/cv/index.html
 
   #### Access Digital (now GAIN) - January 2022 to present
 
-  Working as a tech lead.
+  [Website](https://www.thisisgain.com)
+
+  Working as a tech lead, I worked alongside the Head of Delivery and project managers, heading up a squad of developers across multiple clients, including (but not limited to):
+
+  *  [Wave Utilities](https://www.wave-utilities.co.uk)
+  *  [Scottish Water Business Stream](https://www.business-stream.co.uk)
+     - Marketing website, built on Expression Engine
+     - Portal website, a headless Drupal build with a React front-end
+  *  [WaterUK](https://water.org.uk)
+  *  [MS Society](https://www.mssociety.org.uk)
+  *  [National Grid](https://www.nationalgrid.com)
+  *  [IAB](https://www.iabuk.com)
+
+  Across these projects, I worked directly with the delivery team to ensure the continuous delivery of high-quality, consistent work. I was often the first point-of-contact for clients, and fostered excellent relationships with all the clients I worked with.
+
+  To support the delivery of work I worked to update and streamline the release processes across the business. This included:
+
+  *   Standardisation of a release process, across both development and delivery, and implementing feedback from key stakeholders including Head of Delivery and Head of QA.
+  *   Implementation and roll out of a set of composable (reusable) Github Actions, to support consistent deployment processes.
+  *   Updates to several codebases to ensure the release and deployment processes were in line with the agreed standard.
+  *   Support for other tech leads to roll the changes out to sites/codebases that I was not involved in.
+
+  Since 2025 I acted as a line manager for a number of developers, supporting them in 1:1s and assisting with performance reviews, including goal/objective setting.
 
   #### Focusrite-Novation - June 2019 to December 2021
 

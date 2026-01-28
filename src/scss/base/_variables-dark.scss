@@ -3,20 +3,19 @@
 
 @use "sass:color";
 
-$c-dark-sky-blue-dark: #444e53;
-$c-dark-liver-dark: #232123;
-$c-platinum-dark: #62666a;
-$c-cadet-grey-dark: #414345;
-$c-sonic-silver-dark: #343535;
+$c-space-indigo: #191d32;
+$c-deep-space-indigo: #282f44;
+$c-vintage-grape: #453a49;
+$c-mauve-shadow: #6d3b47;
 
 // Main body layout.
-$dc-body-background: $c-cadet-grey-dark;
-$dc-body-header: $c-dark-sky-blue-dark;
-$dc-body-nav: color.mix($c-cadet-grey-dark, $c-dark-sky-blue-dark, $weight: 25%);
-$dc-contrast: $c-cadet-grey;
+$dc-body-background: $c-deep-space-indigo;
+$dc-body-header: $c-space-indigo;
+$dc-body-nav: color.mix($c-deep-space-indigo, $c-space-indigo, $weight: 25%);
+$dc-contrast: $c-mauve-shadow;
 
 // Reusable variables.
-$dc-borders: $c-platinum-dark;
+$dc-borders: $c-mauve-shadow;
 $dc-backgrounds: color.scale($dc-body-background, $lightness: + 30%);
 
 // Type.
@@ -24,8 +23,8 @@ $dc-text: $c-platinum;
 
 // Body links.
 $dc-links-default: $c-platinum;
-$dc-links-default-accent: color.scale($c-cadet-grey, $lightness: - 25%);
-$dc-links-interacting: $c-cadet-grey-dark;
+$dc-links-default-accent: color.scale($c-mauve-shadow);
+$dc-links-interacting: $c-deep-space-indigo;
 
 // Header links.
 $dc-skip-link: color.scale($c-platinum, $lightness: + 10%);
@@ -41,11 +40,11 @@ $dc-code-background: $dc-backgrounds;
 
 // Miscellaneous.
 $dc-image-border: $dc-borders;
-$dc-table-header: $c-sonic-silver-dark;
+$dc-table-header: $c-vintage-grape;
 $dc-table-header-text: $c-platinum;
 $dc-table-border: $dc-borders;
-$dc-table-stripe: color.scale($c-cadet-grey-dark, $lightness: + 10%);
+$dc-table-stripe: color.scale($c-deep-space-indigo, $lightness: + 10%);
 $dc-hr: $dc-borders;
 $dc-details-border: $dc-borders;
-$dc-details-summary-background: color.scale($c-cadet-grey-dark, $lightness: + 10%);
+$dc-details-summary-background: color.scale($c-deep-space-indigo, $lightness: + 10%);
 $dc-welcome-message-background: color.scale($c-platinum, $lightness: + 30%);
